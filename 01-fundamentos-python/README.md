@@ -125,3 +125,52 @@ print("usando input", my_name)
 #### Recursos
 
 https://www.w3schools.com/python/python_variables.asp
+
+### Tipos de datos
+
+Tipos de datos primitivos
+
+* Integers: números Enteros
+* Floats: números de punto flotante (decimales)
+* Strings: cadena de caracteres (texto)
+* Boolean: boolenaos (Verdadero o Falso)
+  
+Tipos de dato adicionales
+
+* Datos en texto: str
+* Datos numéricos: int, float, complex
+* Datos en secuencia: list, tuple, range
+* Datos de mapeo: dict
+* Set Types: set, frozenset
+* Datos booleanos: bool
+* Datos binarios: bytes, bytearray, memoryview
+
+![Alt text](image-3.png)
+
+```py
+# string
+my_name = "Nicolas"
+my_name = 'Santiago'
+my_name = "12"
+print('my_name =>', my_name)
+print(type(my_name))
+
+# int
+my_age = 12
+print('my_age =>', my_age)
+print(type(my_age))
+
+# boolean
+is_single = False
+print('is_single =>', is_single)
+print(type(is_single))
+
+# inputs
+my_age = input('Â¿CuÃ¡l es tu edad? ')
+print('my_age =>', my_age)
+print(type(my_age))
+```
+
+#### Recursos
+
+https://www.w3schools.com/python/python_datatypes.asp
