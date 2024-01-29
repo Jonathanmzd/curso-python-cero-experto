@@ -511,3 +511,34 @@ https://static.platzi.com/media/public/uploads/12_lambda_604e82aa-cab0-43c1-a320
 
 https://www.w3schools.com/python/python_lambda.asp
 
+### Higher order function: una función dentro de otra función
+
+![Alt text](image-24.png)
+
+```py
+def increment(x):
+  return x + 1
+
+increment_v2 = lambda x: x +1
+
+def high_ord_func(x, func):
+  return x + func(x)
+
+high_ord_func_v2 = lambda x, func: x + func(x)
+
+result = high_ord_func(2, increment)
+# 2 + (2 + 1)
+print(result)
+
+result = high_ord_func_v2(2, increment_v2)
+print(result)
+result = high_ord_func_v2(2, lambda x: x + 2)
+print(result)
+## change
+result = high_ord_func_v2(2, lambda x: x * 5)
+print(result)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/13_hof_f948e15c-91ec-4637-abea-7717e9c7177f.py
