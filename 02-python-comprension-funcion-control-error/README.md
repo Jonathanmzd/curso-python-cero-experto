@@ -1117,3 +1117,29 @@ with open('./text.txt') as file:
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/23_files_fa8425c0-9a3e-4f30-8ea1-f93419af93c9.py
+
+
+### Escribir en un archivo
+
+![Alt text](image-41.png)
+
+![Alt text](image-42.png)
+
+```py
+with open('./texs.txt', 'w+') as file:
+  for line in file:
+    print(line)
+  file.write('nuevas cosas en este archivo\n')
+  file.write('otra linea\n')
+  file.write(' mas linea\n')
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/24_write_8e159ef5-b40d-47ab-9f2c-f31c878fb439.py
+
+https://platzi.com/blog/administracion-usuarios-servidores-linux/
+
+https://platzi.com/blog/cosas-que-nos-sabias-sobre-el-sistema-de-permisos-de-linux-realmente-es-octal/
+
+https://www.w3schools.com/python/python_file_write.asp
