@@ -1053,3 +1053,45 @@ print(person.values())
 https://static.platzi.com/media/public/uploads/20_dict_58c312ba-c5da-4e5d-a9d4-10677b71e445.py
 
 https://www.w3schools.com/python/python_dictionaries_methods.asp
+
+### Loops: While
+
+![Alt text](image-30.png)
+
+
+```py
+'''
+while True:
+  print('se ejecuto')
+
+
+counter = 0
+
+while counter < 10:
+  counter += 1
+  print(counter)
+
+
+counter = 0
+
+while counter < 20:
+  counter += 1
+  if counter == 15:
+    break
+  print(counter)
+'''
+
+counter = 0
+
+while counter < 20:
+  counter += 1
+  if counter < 15:
+    continue
+  print(counter)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/21_while_207a5e7a-0949-4e17-8ec0-e7b4a6237885.py
+
+https://www.w3schools.com/python/python_while_loops.asp
