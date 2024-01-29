@@ -147,3 +147,44 @@ print(set_a ^ set_b)
 https://static.platzi.com/media/public/uploads/03_operations_f46bef8b-d2a2-4da1-9806-a9271df1954d.py
 
 https://www.w3schools.com/python/python_ref_set.asp
+
+
+### List Comprehension
+
+![Alt text](image-5.png)
+
+![Alt text](image-6.png)
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+![Alt text](image-9.png)
+
+```py
+'''
+numbers = []
+for element in range(1, 11):
+  numbers.append(element * 2)
+
+print(numbers)
+
+numbers_v2 = [element * 2 for element in range(1, 11)]
+print(numbers_v2)
+'''
+numbers = []
+for i in range(1, 11):
+  if i % 2 == 0:
+    numbers.append(i * 2)
+
+print(numbers)
+
+numbers_v2 = [i * 2 for i in range(1, 11) if i % 2 == 0]
+print(numbers_v2)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/04_lists_54fe02b6-b356-41cd-8e4d-05f0154686be.py
+
+https://www.w3schools.com/python/python_lists_comprehension.asp
