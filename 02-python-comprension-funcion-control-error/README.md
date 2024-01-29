@@ -581,3 +581,43 @@ print(result)
 https://static.platzi.com/media/public/uploads/14_map_5f6cf035-c0c4-411f-866a-b8c849ba6ff1.py
 
 https://www.w3schools.com/python/ref_func_map.asp
+
+
+### Map con diccionarios
+
+Tener cuidado cuando se modifica un atributo de un diccionario y queda modificado el orignal
+
+![Alt text](image-26.png)
+
+```py
+items = [
+  {
+    'product': 'camisa',
+    'price': 100,
+  },
+  {
+    'product': 'pantalones',
+    'price': 300
+  },
+  {
+    'product': 'pantalones 2',
+    'price': 200
+  }
+]
+
+prices = list(map(lambda item: item['price'], items))
+print(items)
+print(prices)
+
+def add_taxes(item):
+  item['taxes'] = item['price'] * .19
+  return item
+
+new_items = list(map(add_taxes, items))
+print(new_items)
+print(items)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/15_map_dicts_050cdf86-6566-4621-a123-96a0439a5a49.py
