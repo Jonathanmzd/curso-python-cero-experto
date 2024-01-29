@@ -334,6 +334,57 @@ print('Hola' + ' mundo')
 print('Hola' * 3)
 ```
 
+![Alt text](image-9.png)
+
+#### Recursos
+
+https://www.w3schools.com/python/python_operators.asp
+
+### Operadores de comparación
+
+![Alt text](image-10.png)
+
+![Alt text](image-11.png)
+
+```py
+# > 
+print(7 > 3)
+print(3 > 7)
+print(7 > 7)
+
+# <
+print(5 < 6)
+print(6 < 5)
+print(5 < 5)
+
+# >=
+print(2 >= 1)
+print(2 >= 3)
+print(2 >= 2)
+
+# <=
+print(1 <= 2)
+print(2 <= 1)
+print(2 <= 2)
+
+# ==
+
+print(6 == 6)
+print(5 == 2)
+
+# !=
+
+print(6 != 10)
+print(6 != 6)
+
+print("Apple" == 'Apple')
+print("Apple" == 'apple')
+print("1" == 1)
+
+age = 15
+print(age >= 18)
+```
+
 #### Recursos
 
 https://www.w3schools.com/python/python_operators.asp
