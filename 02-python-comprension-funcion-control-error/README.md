@@ -952,6 +952,7 @@ print(func_4())
 
 '''
 
+# anterior a python 3
 import pkg
 print(pkg.URL)
 print(pkg.mod_1.func_1())
