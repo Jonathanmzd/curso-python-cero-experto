@@ -416,3 +416,41 @@ print(abs(x - y) < tolerance)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/10_float_583c95ee-c16f-4d38-965e-f25a03500bdb.py
+
+
+### Operadores lógicos: and y or
+
+![Alt text](image-13.png)
+
+```py
+# and
+print('AND')
+print('True and True =>', True and True)
+print('True and False =>', True and False)
+print('False and True =>', False and True)
+print('False and False =>', False and False)
+
+print(10 > 5 and 5 < 10)
+print(10 > 5 and 5 > 10)
+
+stock = input('Ingrese el numero de stock => ')
+stock = int(stock)
+
+print(stock >= 100 and stock <= 1000)
+
+print('OR')
+print('True or True =>', True or True)
+print('True or False =>', True or False)
+print('False or True =>', False or True)
+print('False or False =>', False or False)
+
+role = input('Digita el rol => ')
+
+print(role == 'admin' or role == 'seller')
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/11_logic_01a3be38-4a56-4644-b91e-afd7492776f0.py
+
+https://www.w3schools.com/python/python_operators.asp
