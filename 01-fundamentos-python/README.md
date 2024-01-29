@@ -1154,3 +1154,38 @@ for person in people:
 https://static.platzi.com/media/public/uploads/22_for_e6bd525b-bf27-4ae9-92c3-0e931423aa42.py
 
 https://www.w3schools.com/python/python_for_loops.asp
+
+
+### Ciclos anidados
+
+Esto es una lista de listas, donde podemos 
+
+![Alt text](image-33.png)
+
+```py
+# Ciclos anidados
+
+matriz = [
+  [1, 2, 3], 
+  [4, 5, 6], 
+  [7, 8, 9]
+]
+
+# Imprime la primera fila de la matriz
+print(matriz[0])
+
+# Imprime el elemento 2 de la primera fila
+print(matriz[0][1])
+
+'''
+Recorremos las filas de la matriz y por cada fila recorremos cada una de las columnas
+'''
+for row in matriz:
+  print(row)
+  for column in row:
+    print(column)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/23_loops_b0f7c1c2-eb29-4873-bf71-d904147d7bb2.py
