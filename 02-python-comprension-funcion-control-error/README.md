@@ -965,3 +965,30 @@ https://static.platzi.com/media/public/uploads/main_c1e69388-8b5a-4967-804a-c998
 https://github.com/tiangolo
 
 https://github.com/tiangolo/full-stack-fastapi-postgresql
+
+
+### Iterables
+
+ Un iterable se define como el objeto que contiene un número contable con valores y este al tener un valor puede recorrer uno a uno los elementos que la contienen como una estructura de datos y operar con ellos, pero a la vez se rigen bajo la instrucción que se le es dada, con lo cual son dependientes de la instrucción a recibir.
+
+Los metodos de su uso son dos __iter__() y __next__() .
+
+![Alt text](image-36.png)
+
+```py
+for i in range(1, 10):
+  print(i)
+
+my_iter = iter(range(1, 4))
+print(my_iter)
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/20_iter_99777c3d-b4bb-4b4e-b12c-c7825e672664.py
+
+https://www.w3schools.com/python/python_iterators.asp
