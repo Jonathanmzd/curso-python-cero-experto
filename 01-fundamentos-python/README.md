@@ -180,6 +180,8 @@ https://www.w3schools.com/python/python_datatypes.asp
 
 ![Alt text](image-4.png)
 
+Una nueva notación para cadenas llamada cadenas "f", que simplifica la inserción de variables y expresiones en las cadenas.
+
 ```py
 name = "Nicolas"
 last_name = 'Molina Monroy'
@@ -210,3 +212,48 @@ print('v3', template)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/04_string_463dac54-1e10-4e3f-b621-478f0a13fbef.py
+
+
+### Numbers
+
+![Alt text](image-5.png)
+
+```py
+lives = 3
+print(type(lives))
+age = 12
+budget = 100
+
+temperature = 12.12
+print(type(temperature))
+
+lives = 2
+print(lives)
+lives = 1
+print(lives)
+
+lives = 12 + 15
+print(lives)
+
+lives = lives - 1
+print(lives)
+
+lives -= 1
+print(lives)
+
+lives -= 5
+print(lives)
+
+lives += 5
+print(lives)
+
+number = 4500000000000000000.1
+print(number)
+
+number_b = 0.0000000000000001
+print(number_b)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/05_numbers_05fb89e8-49d2-478c-bbf5-6ac16ccace31.py
