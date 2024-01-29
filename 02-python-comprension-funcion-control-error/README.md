@@ -936,3 +936,31 @@ https://static.platzi.com/media/public/uploads/read_csv_784f9c37-9c23-4394-ad5b-
 https://static.platzi.com/media/public/uploads/data_1e66c1d8-5b44-40c8-802c-abc17405918f.csv
 
 https://static.platzi.com/media/public/uploads/utils_e2f67b0c-ba79-47ce-9c1a-e312375921ab.py
+
+
+### Paquetes
+
+```py
+'''
+from pkg.mod_1 import func_1, func_2
+from pkg.mod_2 import func_3, func_4
+
+print(func_1())
+print(func_2())
+print(func_3())
+print(func_4())
+
+'''
+
+import pkg
+print(pkg.URL)
+print(pkg.mod_1.func_1())
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/main_c1e69388-8b5a-4967-804a-c998112cd906.py
+
+https://github.com/tiangolo
+
+https://github.com/tiangolo/full-stack-fastapi-postgresql
