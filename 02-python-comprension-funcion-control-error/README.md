@@ -731,3 +731,64 @@ https://static.platzi.com/media/public/uploads/17_filter_dict_7f2a4c30-2934-4f2e
 https://static.platzi.com/media/public/uploads/17_filter_d07d9ceb-e28f-49c3-ab99-714d51727d3d.py
 
 https://www.w3schools.com/python/ref_func_filter.asp
+
+
+### Reduce
+
+En Python, la función reduce es parte del módulo functools y se utiliza para operaciones acumulativas en una secuencia. Aplica sucesivamente una función binaria (una función que toma dos argumentos) a los elementos de un iterable, reduciendo el iterable a un único resultado acumulado.
+
+Aquí tienes la sintaxis básica de la función reduce:
+
+```py
+from functools import reduce
+
+resultado = reduce(funcion, iterable, inicializador)
+```
+
+* funcion: La función binaria que se aplicará de forma acumulativa a los elementos del iterable.
+* iterable: La secuencia de valores que se va a reducir.
+* inicializador (opcional): Un valor inicial opcional para la acumulación. Si se proporciona, la función comenzará con este valor inicial y el primer elemento del iterable.
+  
+
+Aquí tienes un ejemplo sencillo que utiliza la función reduce para calcular el producto de los elementos en una lista:
+
+```py
+from functools import reduce
+
+numeros = [1, 2, 3, 4, 5]
+
+# Define una función binaria para multiplicar dos números
+multiplicar = lambda x, y: x * y
+
+# Usa reduce para encontrar el producto de todos los elementos en la lista
+resultado = reduce(multiplicar, numeros)
+
+print(resultado)
+```
+
+En este ejemplo, la función multiplicar se aplica de forma acumulativa a los elementos de la lista numeros, resultando en el producto de todos los elementos (1 * 2 * 3 * 4 * 5).
+
+Es importante tener en cuenta que, en Python 3, la función reduce se ha movido al módulo functools, por lo que es necesario importarla explícitamente, como se muestra en el ejemplo.
+
+![Alt text](image-30.png)
+
+![Alt text](image-31.png)
+
+```py
+import functools
+
+numbers = [1, 2, 3, 4]
+
+def accum(counter, item):
+  print('counter => ',counter)
+  print('item => ',item)
+  return counter + item
+
+result = functools.reduce(accum, numbers)
+
+print(result)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/18_reduce_f7adca6c-b7f0-41d7-babb-477b6e68f1cd.py
