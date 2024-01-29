@@ -174,3 +174,39 @@ print(type(my_age))
 #### Recursos
 
 https://www.w3schools.com/python/python_datatypes.asp
+
+
+### Strings
+
+![Alt text](image-4.png)
+
+```py
+name = "Nicolas"
+last_name = 'Molina Monroy'
+print(name)
+print(last_name)
+
+full_name = name + " " + last_name
+print(full_name)
+
+quote = "I'm Nicolas"
+print(quote)
+
+quote2 = ' She said "Hello"  '
+print(quote2)
+
+# format
+template = "Hola, mi nombre es " + name + " y mi apellido es " + last_name
+print('v1 ', template)
+
+template = "Hola, mi nombre es {} y mi apellido es {}".format(name, last_name)
+
+print('v2', template)
+
+template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
+print('v3', template)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/04_string_463dac54-1e10-4e3f-b621-478f0a13fbef.py
