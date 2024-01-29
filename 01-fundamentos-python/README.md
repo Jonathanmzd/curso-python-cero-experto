@@ -278,3 +278,33 @@ print(is_single)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/06_booleans_fb16cc2d-9456-44c8-a1df-198e109c7d55.py
+
+### Transformación de tipos
+
+![Alt text](image-7.png)
+
+```py
+name = "Nicolas"
+print(type(name))
+name = 12
+print(type(name))
+name = True
+print(type(name))
+
+print("Nicolas" + " Molina")
+print(10 + 20)
+print("Nicolas" + "12")
+
+age = 12
+print("Mi edad es " + str(age))
+print(f"Mi edad es {age}")
+
+age = input('Escribe tu edad => ')
+print(type(age))
+age = int(age)
+age += 10
+print(f'Tu edad en 10 aÃ±os serÃ¡ {age}')
+```
+#### Recursos
+
+https://www.w3schools.com/python/python_casting.asp
