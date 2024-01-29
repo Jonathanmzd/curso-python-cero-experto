@@ -6,19 +6,17 @@
 
 ![Alt text](image-1.png)
 
-
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/slides-del-curso-de-python-comprehensions-funciones-y-manejo-de-errores_d4ad1632-4a52-4a5b-b74e-5a972a02c404.pdf
 
 https://es.wikipedia.org/wiki/Zen_de_Python
 
-
 ### Sets
 
-* Se pueden modificar
-* No tienen un orden
-* No pueden tener elementos duplicados
+- Se pueden modificar
+- No tienen un orden
+- No pueden tener elementos duplicados
 
 ![Alt text](image-2.png)
 
@@ -52,21 +50,19 @@ https://static.platzi.com/media/public/uploads/01_sets_4c6e5f1b-a0b1-46d5-879f-3
 
 https://www.w3schools.com/python/python_sets.asp
 
-
 ### Modificando conjuntos
 
-* add(): Añade un elemento.
+- add(): Añade un elemento.
 
-* update(): Añade cualquier tipo de objeto iterable como: listas, tuplas.
+- update(): Añade cualquier tipo de objeto iterable como: listas, tuplas.
 
-* discard(): Elimina un elemento y si ya existe no lanza ningún error.
+- discard(): Elimina un elemento y si ya existe no lanza ningún error.
 
-* remove(): Elimina un elemento y si este no existe lanza el error “keyError”.
+- remove(): Elimina un elemento y si este no existe lanza el error “keyError”.
 
-* pop(): Nos devuelve un elemento aleatorio y lo elimina y si el conjunto está vacío lanza el error “key error”.
+- pop(): Nos devuelve un elemento aleatorio y lo elimina y si el conjunto está vacío lanza el error “key error”.
 
-* clear(): Elimina todo el contenido del conjunto.
-
+- clear(): Elimina todo el contenido del conjunto.
 
 ![Alt text](image-3.png)
 
@@ -108,7 +104,6 @@ print(len(set_countries))
 
 https://static.platzi.com/media/public/uploads/02_crud_set_53ad34c2-4b27-4618-a875-315add8a0e71.py
 
-
 ### Operaciones con conjuntos
 
 **union(set)**: Realiza la operacion “union” entre dos conjuntos. La unión entre dos conjuntos es sumar los elementos de estos sin repetir elementos. Esta operación tambien se puede realizar con el signo “|”: set_a | set_b.
@@ -147,7 +142,6 @@ print(set_a ^ set_b)
 https://static.platzi.com/media/public/uploads/03_operations_f46bef8b-d2a2-4da1-9806-a9271df1954d.py
 
 https://www.w3schools.com/python/python_ref_set.asp
-
 
 ### List Comprehension
 
@@ -253,7 +247,6 @@ print(unique)
 
 https://static.platzi.com/media/public/uploads/06_dict_60c32297-cb1e-4f04-9c41-247942c94d16.py
 
-
 ### Lists vs. Tuples vs. Sets
 
 ![Alt text](image-13.png)
@@ -264,23 +257,23 @@ https://static.platzi.com/media/public/uploads/06_dict_60c32297-cb1e-4f04-9c41-2
 
 Caracteristicas
 
-* Se pueden escribir como una lista que están separados por comas y encerrados entre corchetes.
-* La lista es mutable, con esto se puede transformar a cualquier tipo de dato y puede almacenar cualquier elemento que la contenga.
-* Las listas pueden almacenar cualquier tipo de elemento.
+- Se pueden escribir como una lista que están separados por comas y encerrados entre corchetes.
+- La lista es mutable, con esto se puede transformar a cualquier tipo de dato y puede almacenar cualquier elemento que la contenga.
+- Las listas pueden almacenar cualquier tipo de elemento.
 
 **TUPLE** Las Tuplas son una colección muy parecida a una lista, ya que sus valores almacenados pueden ser de cualquier tipo y están indexados por números enteros. Sus valores están separados por 'comas', pero esto no es necesario, ya que lo mas común es encerrarlos entre paréntesis ( ), sus principales características son:
 
-* Tupla es una secuencia inmutable.
-* No se pueden cambiar ni reemplazara sus valores ya que es inmutable.
-* se define entre parentesis ( ).
-* Las tuplas pueden almacenar cualquier tipo de elemento.
+- Tupla es una secuencia inmutable.
+- No se pueden cambiar ni reemplazara sus valores ya que es inmutable.
+- se define entre parentesis ( ).
+- Las tuplas pueden almacenar cualquier tipo de elemento.
 
 **SET** El conjunto es una colección de elementos desordenada que es iterable, mutable y no tiene elementos duplicados. Su principal ventaja al utilizar un conjunto a diferencia de una lista, es su metodo que es altamente optimizado para verificar si un elemento específico esta contenido en un conjunto. Sus principales características son:
 
-* Los conjuntos son una colección de elementos desordenados.
-* El orden en como se agregan no es el mismo ya que este puede cambiar.
-* Se define entre llaves { }.
-* Los conjuntos son mutables, sin embargo solo se pueden almacenar objetos inmutables.
+- Los conjuntos son una colección de elementos desordenados.
+- El orden en como se agregan no es el mismo ya que este puede cambiar.
+- Se define entre llaves { }.
+- Los conjuntos son mutables, sin embargo solo se pueden almacenar objetos inmutables.
 
 ### Funciones
 
@@ -338,7 +331,6 @@ print(result_2)
 
 https://static.platzi.com/media/public/uploads/08_return_8c217685-815e-416d-ad2f-94f84c4edbb1.py
 
-
 ### Parámetros por defecto y múltiples returns
 
 ![Alt text](image-18.png)
@@ -357,7 +349,6 @@ print(text)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/09_return_ca20822d-c3d8-47df-94ad-ce0157a89eca.py
-
 
 ### El scope | El Alcance
 
@@ -388,7 +379,6 @@ print(price_2)
 https://static.platzi.com/media/public/uploads/10_scope_5739e968-c4fc-4af2-b41d-dc703af33862.py
 
 https://www.w3schools.com/python/python_scope.asp
-
 
 ### Refactor game
 
@@ -448,7 +438,7 @@ def check_rules(user_option, computer_option, user_wins, computer_wins):
 
 def run_game():
   computer_wins = 0
-  user_wins = 0  
+  user_wins = 0
   rounds = 1
   while True:
     print('*' * 10)
@@ -478,7 +468,6 @@ run_game()
 https://static.platzi.com/media/public/uploads/11_game_b66a27b7-e014-4d6b-b86f-934606c3b2cb.py
 
 https://static.platzi.com/media/public/uploads/game_914e0cd3-0d5a-4a8f-b894-ad92e23f9179.py
-
 
 ### Funciones anónimas: lambda
 
@@ -543,7 +532,6 @@ print(result)
 
 https://static.platzi.com/media/public/uploads/13_hof_f948e15c-91ec-4637-abea-7717e9c7177f.py
 
-
 ### Map
 
 MAP( ) La función map () ejecuta una función especifica para cada elemento en un iterable y el elemento se envía a la función como un parámetro.
@@ -581,7 +569,6 @@ print(result)
 https://static.platzi.com/media/public/uploads/14_map_5f6cf035-c0c4-411f-866a-b8c849ba6ff1.py
 
 https://www.w3schools.com/python/ref_func_map.asp
-
 
 ### Map con diccionarios
 
@@ -622,7 +609,6 @@ print(items)
 
 https://static.platzi.com/media/public/uploads/15_map_dicts_050cdf86-6566-4621-a123-96a0439a5a49.py
 
-
 ### Reto: map con inmutabilidad
 
 Hacer que se genere un nuevo diccionario respetando el inicial
@@ -657,11 +643,9 @@ print('Old list')
 print(items)
 ```
 
-
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/16_inmutable_f543bb35-7eea-47bc-8aed-36c9ed6849d5.py
-
 
 ### Filter
 
@@ -685,7 +669,6 @@ print(numbers)
 #### filter con diccionarios
 
 ![Alt text](image-29.png)
-
 
 ```py
 matches = [
@@ -732,7 +715,6 @@ https://static.platzi.com/media/public/uploads/17_filter_d07d9ceb-e28f-49c3-ab99
 
 https://www.w3schools.com/python/ref_func_filter.asp
 
-
 ### Reduce
 
 En Python, la función reduce es parte del módulo functools y se utiliza para operaciones acumulativas en una secuencia. Aplica sucesivamente una función binaria (una función que toma dos argumentos) a los elementos de un iterable, reduciendo el iterable a un único resultado acumulado.
@@ -745,10 +727,9 @@ from functools import reduce
 resultado = reduce(funcion, iterable, inicializador)
 ```
 
-* funcion: La función binaria que se aplicará de forma acumulativa a los elementos del iterable.
-* iterable: La secuencia de valores que se va a reducir.
-* inicializador (opcional): Un valor inicial opcional para la acumulación. Si se proporciona, la función comenzará con este valor inicial y el primer elemento del iterable.
-  
+- funcion: La función binaria que se aplicará de forma acumulativa a los elementos del iterable.
+- iterable: La secuencia de valores que se va a reducir.
+- inicializador (opcional): Un valor inicial opcional para la acumulación. Si se proporciona, la función comenzará con este valor inicial y el primer elemento del iterable.
 
 Aquí tienes un ejemplo sencillo que utiliza la función reduce para calcular el producto de los elementos en una lista:
 
@@ -766,7 +747,7 @@ resultado = reduce(multiplicar, numeros)
 print(resultado)
 ```
 
-En este ejemplo, la función multiplicar se aplica de forma acumulativa a los elementos de la lista numeros, resultando en el producto de todos los elementos (1 * 2 * 3 * 4 * 5).
+En este ejemplo, la función multiplicar se aplica de forma acumulativa a los elementos de la lista numeros, resultando en el producto de todos los elementos (1 _ 2 _ 3 _ 4 _ 5).
 
 Es importante tener en cuenta que, en Python 3, la función reduce se ha movido al módulo functools, por lo que es necesario importarla explícitamente, como se muestra en el ejemplo.
 
@@ -793,7 +774,6 @@ print(result)
 
 https://static.platzi.com/media/public/uploads/18_reduce_f7adca6c-b7f0-41d7-babb-477b6e68f1cd.py
 
-
 ### Módulos
 
 ![Alt text](image-32.png)
@@ -809,7 +789,7 @@ text = 'Mi numero de telefono es 311 123 121, el codigo del pais es 57, mi numer
 result = re.findall('[0-9]+', text)
 print(result)
 
-# hora 
+# hora
 import time
 timestamp = time.time()
 print(timestamp)
@@ -819,20 +799,18 @@ local = time.localtime()
 result = time.asctime(local)
 print(result)
 
-# collections 
+# collections
 import collections
 numbers = [1,1,2,1,2,1,4,5,3,3,21]
 counter = collections.Counter(numbers)
 print(counter)
 ```
 
-
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/19_modules_e6cfd282-989a-4b05-8636-bdf9ddcc8ebc.py
 
 https://www.w3schools.com/python/python_modules.asp
-
 
 ### Mis propios módulos
 
@@ -882,8 +860,7 @@ https://static.platzi.com/media/public/uploads/main_c976078c-d90a-4214-9560-1b5f
 
 https://static.platzi.com/media/public/uploads/utils_425281f8-3229-4030-85a5-596dc6c6aa38.py
 
-
-### Módulos como scripts: __name__ y __main__
+### Módulos como scripts: **name** y **main**
 
 ![Alt text](image-35.png)
 
@@ -937,7 +914,6 @@ https://static.platzi.com/media/public/uploads/data_1e66c1d8-5b44-40c8-802c-abc1
 
 https://static.platzi.com/media/public/uploads/utils_e2f67b0c-ba79-47ce-9c1a-e312375921ab.py
 
-
 ### Paquetes
 
 ```py
@@ -966,12 +942,11 @@ https://github.com/tiangolo
 
 https://github.com/tiangolo/full-stack-fastapi-postgresql
 
-
 ### Iterables
 
- Un iterable se define como el objeto que contiene un número contable con valores y este al tener un valor puede recorrer uno a uno los elementos que la contienen como una estructura de datos y operar con ellos, pero a la vez se rigen bajo la instrucción que se le es dada, con lo cual son dependientes de la instrucción a recibir.
+Un iterable se define como el objeto que contiene un número contable con valores y este al tener un valor puede recorrer uno a uno los elementos que la contienen como una estructura de datos y operar con ellos, pero a la vez se rigen bajo la instrucción que se le es dada, con lo cual son dependientes de la instrucción a recibir.
 
-Los metodos de su uso son dos __iter__() y __next__() .
+Los metodos de su uso son dos **iter**() y **next**() .
 
 ![Alt text](image-36.png)
 
@@ -993,45 +968,44 @@ https://static.platzi.com/media/public/uploads/20_iter_99777c3d-b4bb-4b4e-b12c-c
 
 https://www.w3schools.com/python/python_iterators.asp
 
-
 ### Errores en Python
 
 ERRORES O EXCEPCIONES INTEGRADAS EN PYTHON En la siguiente tabla podemos encontrar los errores o excepciones que se presentan en Python.
 
-* Exception	Description
-* ArithmeticError	Se genera cuando se produce un error en los cálculos numéricos
-* AssertionError	Se genera cuando falla una declaración de afirmación
-* AttributeError	Se genera cuando falla la asignación o la referencia de atributo
-* Exception	Clase base para todas las excepciones
-* EOFError	Se genera cuando el método input() alcanza una condición de "fin de archivo" (EOF)
-* FloatingPointError	Se genera cuando falla un cálculo de punto flotante
-* GeneratorExit	Se genera cuando se cierra un generador (con el método close())
-* ImportError	Se genera cuando no existe un módulo importado
-* IndentationError	Se genera cuando la sangría no es correcta
-* IndexError	Se genera cuando no existe un índice de una secuencia
-* KeyError	Se genera cuando una clave no existe en un diccionario
-* KeyboardInterrupt	Se genera cuando el usuario presiona Ctrl+c, Ctrl+z o Eliminar
-* LookupError	Se genera cuando no se pueden encontrar los errores generados
-* MemoryError	Se genera cuando un programa se queda sin memoria
-* NameError	Se genera cuando una variable no existe
-* NotImplementedError	Se genera cuando un método abstracto requiere una clase heredada para anular el método
-* OSError	Se genera cuando una operación relacionada con el sistema provoca un error
-* OverflowError	Se genera cuando el resultado de un cálculo numérico es demasiado grande
-* ReferenceError	Se genera cuando no existe un objeto de referencia débil
-* RuntimeError	Se genera cuando ocurre un error que no pertenece a ninguna expectativa específica
-* StopIteration	Se genera cuando el método next() de un iterador no tiene más valores
-* SyntaxError	Se genera cuando se produce un error de sintaxis
-* TabError	Se genera cuando la sangría consta de tabulaciones o espacios
-* SystemError	Se genera cuando se produce un error del sistema
-* SystemExit	Se genera cuando se llama a la función sys.exit()
-* TypeError	Se genera cuando se combinan dos tipos diferentes
-* UnboundLocalError	Se genera cuando se hace referencia a una variable local antes de la asignación
-* UnicodeError	Se genera cuando se produce un problema Unicode
-* UnicodeEncodeError	Se genera cuando se produce un problema de codificación Unicode
-* UnicodeDecodeError	Se genera cuando se produce un problema de decodificación Unicode
-* UnicodeTranslateError	Se genera cuando se produce un problema de traducción Unicode
-* ValueError	Se genera cuando hay un valor incorrecto en un tipo de datos especificado
-* ZeroDivisionError	Se genera cuando el segundo operador en una división es cero
+- Exception Description
+- ArithmeticError Se genera cuando se produce un error en los cálculos numéricos
+- AssertionError Se genera cuando falla una declaración de afirmación
+- AttributeError Se genera cuando falla la asignación o la referencia de atributo
+- Exception Clase base para todas las excepciones
+- EOFError Se genera cuando el método input() alcanza una condición de "fin de archivo" (EOF)
+- FloatingPointError Se genera cuando falla un cálculo de punto flotante
+- GeneratorExit Se genera cuando se cierra un generador (con el método close())
+- ImportError Se genera cuando no existe un módulo importado
+- IndentationError Se genera cuando la sangría no es correcta
+- IndexError Se genera cuando no existe un índice de una secuencia
+- KeyError Se genera cuando una clave no existe en un diccionario
+- KeyboardInterrupt Se genera cuando el usuario presiona Ctrl+c, Ctrl+z o Eliminar
+- LookupError Se genera cuando no se pueden encontrar los errores generados
+- MemoryError Se genera cuando un programa se queda sin memoria
+- NameError Se genera cuando una variable no existe
+- NotImplementedError Se genera cuando un método abstracto requiere una clase heredada para anular el método
+- OSError Se genera cuando una operación relacionada con el sistema provoca un error
+- OverflowError Se genera cuando el resultado de un cálculo numérico es demasiado grande
+- ReferenceError Se genera cuando no existe un objeto de referencia débil
+- RuntimeError Se genera cuando ocurre un error que no pertenece a ninguna expectativa específica
+- StopIteration Se genera cuando el método next() de un iterador no tiene más valores
+- SyntaxError Se genera cuando se produce un error de sintaxis
+- TabError Se genera cuando la sangría consta de tabulaciones o espacios
+- SystemError Se genera cuando se produce un error del sistema
+- SystemExit Se genera cuando se llama a la función sys.exit()
+- TypeError Se genera cuando se combinan dos tipos diferentes
+- UnboundLocalError Se genera cuando se hace referencia a una variable local antes de la asignación
+- UnicodeError Se genera cuando se produce un problema Unicode
+- UnicodeEncodeError Se genera cuando se produce un problema de codificación Unicode
+- UnicodeDecodeError Se genera cuando se produce un problema de decodificación Unicode
+- UnicodeTranslateError Se genera cuando se produce un problema de traducción Unicode
+- ValueError Se genera cuando hay un valor incorrecto en un tipo de datos especificado
+- ZeroDivisionError Se genera cuando el segundo operador en una división es cero
 
 ![Alt text](image-37.png)
 
@@ -1057,7 +1031,6 @@ print('Hola 2')
 https://static.platzi.com/media/public/uploads/21_errors_623cb32b-d212-4a8d-9007-b3ef407f8a6a.py
 
 https://www.w3schools.com/python/python_ref_exceptions.asp
-
 
 ### Manejo de excepciones y Errores en Python
 
@@ -1086,7 +1059,6 @@ print('Hola 2')
 https://static.platzi.com/media/public/uploads/22_errors_44c705f8-70c5-4b4c-953b-e44cb6c10782.py
 
 https://www.w3schools.com/python/python_try_except.asp
-
 
 ### Leer un archivo de texto
 
@@ -1117,7 +1089,6 @@ with open('./text.txt') as file:
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/23_files_fa8425c0-9a3e-4f30-8ea1-f93419af93c9.py
-
 
 ### Escribir en un archivo
 
@@ -1178,3 +1149,48 @@ https://www.kaggle.com/
 https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
 
 https://www.w3schools.com/python/python_file_open.asp
+
+### Creando una gráfica
+
+![Alt text](image-45.png)
+
+![Alt text](image-46.png)
+
+```py
+pip install matplotlib
+```
+
+```py
+  sudo apt-get install python3-tk
+```
+
+```py
+import matplotlib.pyplot as plt
+
+def generate_bar_chart(labels, values):
+  fig, ax = plt.subplots()
+  ax.bar(labels, values)
+  plt.show()
+
+def generate_pie_chart(labels, values):
+  fig, ax = plt.subplots()
+  ax.pie(values, labels=labels)
+  ax.axis('equal')
+  plt.show()
+
+if __name__ == '__main__':
+  labels = ['a', 'b', 'c']
+  values = [10, 40, 800]
+  # generate_bar_chart(labels, values)
+  generate_pie_chart(labels, values)
+```
+
+#### Recursos
+
+https://platzi.com/blog/matplotlib/
+
+https://platzi.com/cursos/matplotlib-seaborn/
+
+https://matplotlib.org/
+
+https://www.w3schools.com/python/matplotlib_pyplot.asp
