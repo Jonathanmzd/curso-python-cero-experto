@@ -629,3 +629,34 @@ https://static.platzi.com/media/public/uploads/main_92da1810-98e1-4e28-b557-abd4
 https://static.platzi.com/media/public/uploads/14_strings_9cfc1106-2633-4f19-ad61-e0f2d5095fda.py
 
 https://www.w3schools.com/python/python_strings_methods.asp
+
+### Indexing y slicing
+
+![Alt text](image-23.png)
+
+```py
+text = "Ella sabe Python"
+print(text[0])
+print(text[1])
+# print(text[999])
+size = len(text)
+print('size => ',size)
+print(text[size - 1])
+print(text[-1])
+
+# slicing
+
+print(text[0:5])
+print(text[10:16])
+print(text[:10])
+print(text[5:-1])
+print(text[5:])
+print(text[:])
+print(text[10:16:1])
+print(text[10:16:2])
+print(text[::2])
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/15_indexing_2e23926a-4049-4659-9a17-cda6dfd1b0a7.py
