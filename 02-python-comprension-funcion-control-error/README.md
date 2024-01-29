@@ -281,3 +281,37 @@ Caracteristicas
 * El orden en como se agregan no es el mismo ya que este puede cambiar.
 * Se define entre llaves { }.
 * Los conjuntos son mutables, sin embargo solo se pueden almacenar objetos inmutables.
+
+### Funciones
+
+![Alt text](image-15.png)
+
+![Alt text](image-16.png)
+
+```py
+print('Hola')
+
+def my_print(text):
+  print(text * 2)
+
+my_print('Este es my texto')
+my_print('Hola')
+
+a = 10
+b = 90
+
+c = a + b
+
+def suma(a, b):
+  my_print(a + b)
+
+suma(1 ,5) # 6
+suma(10, 4) # 14
+
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/07_func_2a63f6b5-4f49-4353-8e97-3f0006676c56.py
+
+https://www.w3schools.com/python/python_functions.asp
