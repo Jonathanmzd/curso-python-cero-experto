@@ -188,3 +188,44 @@ print(numbers_v2)
 https://static.platzi.com/media/public/uploads/04_lists_54fe02b6-b356-41cd-8e4d-05f0154686be.py
 
 https://www.w3schools.com/python/python_lists_comprehension.asp
+
+### Dictionary Comprehension
+
+![Alt text](image-10.png)
+
+![Alt text](image-11.png)
+
+```py
+'''
+dict = {}
+for i in range(1, 5):
+  dict[i] = i * 2
+
+print(dict)
+
+dict_v2 = { i: i * 2 for i in range(1, 5)}
+print(dict_v2)
+
+import random
+countries = ['col', 'mex', 'bol', 'pe']
+population = {}
+for country in countries:
+  population[country] = random.randint(1, 100)
+
+print(population)
+
+population_v2 = { country: random.randint(1, 100)  for country in countries}
+print(population_v2)
+'''
+names = ['nico', 'zule', 'santi']
+ages = [12, 56, 98]
+
+print(list(zip(names, ages)))
+
+new_dict = {name: age for (name, age) in zip(names, ages)}
+print(new_dict)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/05_dict_c61ed7f9-deb7-41b8-984d-be47d893676a.py
