@@ -1086,3 +1086,34 @@ print('Hola 2')
 https://static.platzi.com/media/public/uploads/22_errors_44c705f8-70c5-4b4c-953b-e44cb6c10782.py
 
 https://www.w3schools.com/python/python_try_except.asp
+
+
+### Leer un archivo de texto
+
+![Alt text](image-39.png)
+
+![Alt text](image-40.png)
+
+```py
+file = open('./text.txt')
+# print(file.read())
+# print(file.readline())
+# print(file.readline())
+# print(file.readline())
+# print(file.readline())
+
+for line in file:
+  print(line)
+
+# cerrar archivo
+file.close()
+
+# lee el archivo y cuando ejecute se cierra
+with open('./text.txt') as file:
+  for line in file:
+    print(line)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/23_files_fa8425c0-9a3e-4f30-8ea1-f93419af93c9.py
