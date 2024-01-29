@@ -388,3 +388,31 @@ print(age >= 18)
 #### Recursos
 
 https://www.w3schools.com/python/python_operators.asp
+
+
+### Comparación de números flotantes
+
+![Alt text](image-12.png)
+
+```py
+x = 3.3
+print(x)
+y = 1.1 + 2.2
+print(y)
+print(x == y)
+
+y_str = format(y, ".2g")
+print('str =>', y_str)
+print(y_str == str(x))
+
+print('*' * 10)
+
+print(y, x)
+
+tolerance = 0.00001
+print(abs(x - y) < tolerance)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/10_float_583c95ee-c16f-4d38-965e-f25a03500bdb.py
