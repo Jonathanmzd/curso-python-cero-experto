@@ -832,3 +832,52 @@ print(counter)
 https://static.platzi.com/media/public/uploads/19_modules_e6cfd282-989a-4b05-8636-bdf9ddcc8ebc.py
 
 https://www.w3schools.com/python/python_modules.asp
+
+
+### Mis propios módulos
+
+![Alt text](image-33.png)
+
+![Alt text](image-34.png)
+
+```py
+# 02-python-comprension-funcion-control-error\app\main.py
+import utils
+
+keys, values = utils.get_population()
+print(keys, values)
+
+data = [
+  {
+    'Country': 'Colombia',
+    'Population': 500
+  },
+  {
+    'Country': 'Bolivia',
+    'Population': 300
+  }
+]
+
+country = input('Type Country => ')
+
+result = utils.population_by_country(data, country)
+print(result)
+```
+
+```py
+# 02-python-comprension-funcion-control-error\app\utils.py
+def get_population():
+  keys = ['col', 'bol']
+  values = [300, 400]
+  return keys, values
+
+def population_by_country(data, country):
+  result = list(filter(lambda item: item['Country'] == country, data))
+  return result
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/main_c976078c-d90a-4214-9560-1b5f44bdd7ea.py
+
+https://static.platzi.com/media/public/uploads/utils_425281f8-3229-4030-85a5-596dc6c6aa38.py
