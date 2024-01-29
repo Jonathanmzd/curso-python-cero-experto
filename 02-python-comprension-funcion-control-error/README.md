@@ -357,3 +357,34 @@ print(text)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/09_return_ca20822d-c3d8-47df-94ad-ce0157a89eca.py
+
+
+### El scope | El Alcance
+
+Revisar siempre que una varible tiene un contexto
+
+![Alt text](image-19.png)
+
+![Alt text](image-20.png)
+
+```py
+price = 100 # global
+# result = 200
+
+def increment():
+  price = 200
+  result = price + 10
+  print(result)
+  return result
+
+print(price)
+price_2 = increment()
+print(price_2)
+# print(result)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/10_scope_5739e968-c4fc-4af2-b41d-dc703af33862.py
+
+https://www.w3schools.com/python/python_scope.asp
