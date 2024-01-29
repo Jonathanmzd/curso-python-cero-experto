@@ -621,3 +621,43 @@ print(items)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/15_map_dicts_050cdf86-6566-4621-a123-96a0439a5a49.py
+
+
+### Reto: map con inmutabilidad
+
+Hacer que se genere un nuevo diccionario respetando el inicial
+
+![Alt text](image-27.png)
+
+```py
+items = [
+  {
+    'product': 'camisa',
+    'price': 100,
+  },
+  {
+    'product': 'pantalones',
+    'price': 300
+  },
+  {
+    'product': 'pantalones 2',
+    'price': 200
+  }
+]
+
+def add_taxes(item):
+  new_item = item.copy()
+  new_item['taxes'] = new_item['price'] * .19
+  return new_item
+
+new_items = list(map(add_taxes, items))
+print('New list')
+print(new_items)
+print('Old list')
+print(items)
+```
+
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/16_inmutable_f543bb35-7eea-47bc-8aed-36c9ed6849d5.py
