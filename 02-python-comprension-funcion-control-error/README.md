@@ -337,3 +337,23 @@ print(result_2)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/08_return_8c217685-815e-416d-ad2f-94f84c4edbb1.py
+
+
+### Parámetros por defecto y múltiples returns
+
+![Alt text](image-18.png)
+
+```py
+def find_volume(length=1, width=1, depth=1):
+  return length * width * depth, width, 'hola'
+
+result, width, text = find_volume(width=10)
+
+print(result)
+print(width)
+print(text)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/09_return_ca20822d-c3d8-47df-94ad-ce0157a89eca.py
