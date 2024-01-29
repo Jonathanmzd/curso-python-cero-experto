@@ -454,3 +454,36 @@ print(role == 'admin' or role == 'seller')
 https://static.platzi.com/media/public/uploads/11_logic_01a3be38-4a56-4644-b91e-afd7492776f0.py
 
 https://www.w3schools.com/python/python_operators.asp
+
+### Operador lógico not
+
+![Alt text](image-14.png)
+
+![Alt text](image-15.png)
+
+```py
+print(not True)
+print(not False)
+
+# and
+print('NOT AND')
+print('not True and True =>', not (True and True))
+print('not True and False =>', not (True and False))
+print('not False and True =>', not (False and True))
+print('not False and False =>', not (False and False))
+
+stock = input('Ingrese el numero de stock => ')
+stock = int(stock)
+
+print(not (stock >= 100 and stock <= 1000))
+```
+
+![Alt text](image-16.png)
+
+![Alt text](image-17.png)
+
+![Alt text](image-18.png)
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/12_not_1d988b7a-3a9e-49ff-b004-0038681f7c0b.py
