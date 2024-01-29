@@ -89,3 +89,39 @@ Por ahora NO nos preocuparemos por todo esto, ni por alguna instalación. Lo má
 En cursos posteriores de la ruta de aprendizaje que sigues, instalarás y conocerás herramientas que te permitirán programar con Python de manera profesional.
 
 ¡Sigue avanzando en tu ruta de aprendizaje! 🐍💚
+
+### Variables
+
+Para imprimir directamente el archivo desde la terminal lo realizamos de la siguiente manera:
+
+Ingresamos a la shell
+
+```shell
+python 02_vars.py
+```
+
+Ejercicios
+
+```py
+print("Hola, vars")
+
+# esto es una variable
+my_name = "Nicolas"
+print(my_name)
+
+# esto es variable con un numero
+my_age = 12
+print(my_age)
+
+my_name = "Santiago"
+print("aqui cambio", my_name)
+
+# input
+
+my_name = input("Â¿CuÃ¡l es tu nombre?")
+print("usando input", my_name)
+```
+
+#### Recursos
+
+https://www.w3schools.com/python/python_variables.asp
