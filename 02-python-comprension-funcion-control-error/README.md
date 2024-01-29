@@ -315,3 +315,25 @@ suma(10, 4) # 14
 https://static.platzi.com/media/public/uploads/07_func_2a63f6b5-4f49-4353-8e97-3f0006676c56.py
 
 https://www.w3schools.com/python/python_functions.asp
+
+### Funciones: return
+
+![Alt text](image-17.png)
+
+```py
+def sum_with_range(min, max):
+  print(min, max)
+  sum = 0
+  for x in range(min, max):
+    sum += x
+  return sum
+
+result = sum_with_range(1, 10)
+print(result)
+result_2 = sum_with_range(result, result + 10)
+print(result_2)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/08_return_8c217685-815e-416d-ad2f-94f84c4edbb1.py
