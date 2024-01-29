@@ -661,3 +661,73 @@ print(items)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/16_inmutable_f543bb35-7eea-47bc-8aed-36c9ed6849d5.py
+
+
+### Filter
+
+FILTER La función filter(), devuelve un valor que esta siendo iterado de la cual su resultado será el valor que se esta buscando en el filter
+
+SINTAXIS
+_filter (function, iterable_
+
+Valores.
+filter: Una función que se ejecutara para cada elemento iterable iterable: Lo que se va a filtrar.
+
+![Alt text](image-28.png)
+
+```py
+numbers = [1,2,3,4,5]
+new_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(new_numbers)
+print(numbers)
+```
+
+#### filter con diccionarios
+
+![Alt text](image-29.png)
+
+
+```py
+matches = [
+  {
+    'home_team': 'Bolivia',
+    'away_team': 'Uruguay',
+    'home_team_score': 3,
+    'away_team_score': 1,
+    'home_team_result': 'Win'
+  },
+  {
+    'home_team': 'Brazil',
+    'away_team': 'Mexico',
+    'home_team_score': 1,
+    'away_team_score': 1,
+    'home_team_result': 'Draw'
+  },
+  {
+    'home_team': 'Ecuador',
+    'away_team': 'Venezuela',
+    'home_team_score': 5,
+    'away_team_score': 0,
+    'home_team_result': 'Win'
+  },
+]
+
+print(matches)
+print(len(matches))
+
+new_list = list(filter(lambda item: item['home_team_result'] == 'Win', matches))
+
+print(new_list)
+print(len(new_list))
+
+print(matches)
+print(len(matches))
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/17_filter_dict_7f2a4c30-2934-4f2e-8284-c774081b5734.py
+
+https://static.platzi.com/media/public/uploads/17_filter_d07d9ceb-e28f-49c3-ab99-714d51727d3d.py
+
+https://www.w3schools.com/python/ref_func_filter.asp
