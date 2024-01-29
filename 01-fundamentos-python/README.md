@@ -660,3 +660,82 @@ print(text[::2])
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/15_indexing_2e23926a-4049-4659-9a17-cda6dfd1b0a7.py
+
+
+### Listas
+
+Lista = [1, 2, 3, 4, 5]
+
+Puede ser modificada
+Cada elemento esta separado por una coma
+Puede contener todo tipo de datos
+Metodos para listas
+Lista.metodo(indice,elemento) o
+
+Lista.metodo(elemento)
+
+Metodos importantes
+.count(elemento) cuenta cuantas veces un elemento esta en una lista
+
+.extend(lista) permite extender una lista agregándole los elementos de otra lista
+
+.pop() elimina y retorna el ultimo elemento de la lista
+
+.reverse() reversa el orden de la lista
+
+.sort() ordena la lista de manera ascendente o descendente
+
+Actualizar un valor
+
+Lista = [1, 2, 3, 4, 5]
+
+Lista[0] = -8
+
+Lista = [-8, 2, 3, 4, 5], resultado de la lista luego de actualizar el valor
+
+Agregar un elemento
+
+Lista.append(indice,elemento) o
+
+Lista.append(elemento) en este caso el nuevo elemento se agrega al final de la lista
+
+Eliminar un elemento
+
+Lista.remove(indice, elemento)
+
+
+![Alt text](image-24.png)
+
+```py
+numbers = [1, 2, 3, 4]
+print(numbers)
+print(type(numbers))
+
+tasks = ['make a dishes', 'play videogames']
+print(tasks)
+
+types = [1, True, 'hola']
+print(types)
+
+print(numbers[0])
+print(tasks[0])
+text = 'Hola'
+# text[0] = 'W'
+
+tasks[0] = 'watch platzi courses'
+print(tasks)
+
+tasks[0] = 'do the dishes'
+print(tasks)
+
+print(numbers[:3])
+print(True in types)
+print('hola' in types)
+```
+
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/16_lists_09eb2e15-2c15-4bf1-8a9a-952e49a506be.py
+
+https://www.w3schools.com/python/python_lists.asp
