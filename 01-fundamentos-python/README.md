@@ -616,3 +616,16 @@ while True:
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/main_92da1810-98e1-4e28-b557-abd418a1be49.py
+
+
+### String recargado
+
+![Alt text](image-21.png)
+
+![Alt text](image-22.png)
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/14_strings_9cfc1106-2633-4f19-ad61-e0f2d5095fda.py
+
+https://www.w3schools.com/python/python_strings_methods.asp
