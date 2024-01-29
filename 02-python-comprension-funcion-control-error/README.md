@@ -1057,3 +1057,32 @@ print('Hola 2')
 https://static.platzi.com/media/public/uploads/21_errors_623cb32b-d212-4a8d-9007-b3ef407f8a6a.py
 
 https://www.w3schools.com/python/python_ref_exceptions.asp
+
+
+### Manejo de excepciones y Errores en Python
+
+![Alt text](image-38.png)
+
+```py
+try:
+  print(0 / 0)
+  assert 1 != 1, 'Uno no es igual que uno'
+  age = 10
+  if age < 18:
+    raise Exception('No se permiten menores de edad')
+except ZeroDivisionError as error:
+  print(error)
+except AssertionError as error:
+  print(error)
+except Exception as error:
+  print(error)
+
+print('Hola')
+print('Hola 2')
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/22_errors_44c705f8-70c5-4b4c-953b-e44cb6c10782.py
+
+https://www.w3schools.com/python/python_try_except.asp
