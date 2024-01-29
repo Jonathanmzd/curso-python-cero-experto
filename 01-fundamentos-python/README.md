@@ -1013,3 +1013,43 @@ print('otroqueno' in my_dict)
 https://static.platzi.com/media/public/uploads/19_dict_fb406c66-c5cc-499a-a2fd-0cab50eb5409.py
 
 https://www.w3schools.com/python/python_dictionaries.asp
+
+### Diccionarios: inserción y actualización
+
+![Alt text](image-29.png)
+
+```py
+person = {
+  'name': 'nico',
+  'last_name': 'molina',
+  'langs': ['python', 'javascript'],
+  'age': 99
+}
+
+print(person)
+
+person['name'] = 'santi'
+person['age'] -= 50
+person['langs'].append('rust')
+print(person)
+
+del person['last_name']
+person.pop('age')
+
+print(person)
+
+print('items')
+print(person.items())
+
+print('keys')
+print(person.keys())
+
+print('values')
+print(person.values())
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/20_dict_58c312ba-c5da-4e5d-a9d4-10677b71e445.py
+
+https://www.w3schools.com/python/python_dictionaries_methods.asp
