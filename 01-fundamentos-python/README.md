@@ -487,3 +487,53 @@ print(not (stock >= 100 and stock <= 1000))
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/12_not_1d988b7a-3a9e-49ff-b004-0038681f7c0b.py
+
+### Condicionales
+
+![Alt text](image-19.png)
+
+```py
+if True:
+  print('deberÃ­a ejecutarse')
+
+if False:
+  print('nunca se ejecuta')
+
+'''
+pet = input('Â¿CuÃ¡l es tu mascota favorita? ')
+
+if pet == 'perro':
+  print('genial tienes buen gusto')
+elif pet == 'gato':
+  print('espero tengas suerte')
+elif pet == 'pez':
+  print('eres lo maximo')
+else:
+  print('no tienes ninguna mascota interesante')
+
+
+stock = int(input('Digita el stock => '))
+
+if stock >= 100 and stock <= 1000:
+  print('el stock es correcto')
+else:
+  print('el stock es incorrecto')
+
+'''
+
+number = int(input('Ingrese un numero => '))
+result = number % 2
+if (result == 0):
+  print('Es par')
+else:
+  print('Es impar')
+```
+
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/13_if_137b0293-f273-4889-92d4-be4c1b1878d0.py
+
+https://www.w3schools.com/python/python_conditions.asp
+
+
