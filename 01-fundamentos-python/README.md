@@ -257,3 +257,24 @@ print(number_b)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/05_numbers_05fb89e8-49d2-478c-bbf5-6ac16ccace31.py
+
+### Booleans
+
+![Alt text](image-6.png)
+
+```py
+is_single = True
+print(type(is_single))
+is_single = False
+print(is_single)
+
+print(not True)
+print(not False)
+
+is_single = not is_single
+print(is_single)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/06_booleans_fb16cc2d-9456-44c8-a1df-198e109c7d55.py
