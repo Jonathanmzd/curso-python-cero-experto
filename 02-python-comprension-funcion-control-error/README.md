@@ -229,3 +229,26 @@ print(new_dict)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/05_dict_c61ed7f9-deb7-41b8-984d-be47d893676a.py
+
+### Dictionary Comprehension: condition
+
+![Alt text](image-12.png)
+
+```py
+import random
+countries = ['col', 'mex', 'bol', 'pe']
+
+population_v2 = { country: random.randint(1, 100)  for country in countries}
+print(population_v2)
+
+result = { country: population for (country, population) in population_v2.items() if population > 50 }
+print(result)
+
+text = 'Hola, soy Nicolas'
+unique = { c: c.upper() for c in text if c in 'aeiou' }
+print(unique)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/06_dict_60c32297-cb1e-4f04-9c41-247942c94d16.py
