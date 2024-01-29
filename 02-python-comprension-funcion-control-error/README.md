@@ -478,3 +478,36 @@ run_game()
 https://static.platzi.com/media/public/uploads/11_game_b66a27b7-e014-4d6b-b86f-934606c3b2cb.py
 
 https://static.platzi.com/media/public/uploads/game_914e0cd3-0d5a-4a8f-b894-ad92e23f9179.py
+
+
+### Funciones anónimas: lambda
+
+![Alt text](image-22.png)
+
+![Alt text](image-23.png)
+
+```py
+def increment(x):
+  return x + 1
+
+
+increment_v2 = lambda x: x + 1
+
+result = increment(10)
+print(11)
+
+result = increment_v2(20)
+print(result)
+
+full_name = lambda name, last_name: f'Full name is {name.title()} {last_name.title()}'
+
+text = full_name('nicolas', 'perez casas')
+print(text)
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/12_lambda_604e82aa-cab0-43c1-a320-04ad028065d7.py
+
+https://www.w3schools.com/python/python_lambda.asp
+
