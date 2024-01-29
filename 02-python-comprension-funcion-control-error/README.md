@@ -881,3 +881,58 @@ def population_by_country(data, country):
 https://static.platzi.com/media/public/uploads/main_c976078c-d90a-4214-9560-1b5f44bdd7ea.py
 
 https://static.platzi.com/media/public/uploads/utils_425281f8-3229-4030-85a5-596dc6c6aa38.py
+
+
+### Módulos como scripts: __name__ y __main__
+
+![Alt text](image-35.png)
+
+```py
+# 02-python-comprension-funcion-control-error\app\example.py
+import main
+
+print(main.data)
+main.run()
+```
+
+```py
+# 02-python-comprension-funcion-control-error\app\main.py
+import utils
+import read_csv
+import charts
+
+def run():
+  data = read_csv.read_csv('./app/data.csv')
+  data = list(filter(lambda item : item['Continent'] == 'South America',data))
+
+  countries = list(map(lambda x: x['Country'], data))
+  percentages = list(map(lambda x: x['World Population Percentage'], data))
+  charts.generate_pie_chart(countries, percentages)
+  '''
+  country = input('Type Country => ')
+
+  result = utils.population_by_country(data, country)
+
+  if len(result) > 0:
+    country = result[0]
+    labels, values = utils.get_population(country)
+    charts.generate_bar_chart(labels, values)
+  '''
+# linea muy conocida en los proyectos de python con el fin de ejecutar por medio a script a main directamente
+if __name__ == '__main__':
+  run()
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/charts_6215f64f-829f-4183-a501-19e8d5613291.py
+
+https://static.platzi.com/media/public/uploads/example_ebc19214-2ef7-460e-8b57-cc6f2a77e093.py
+
+https://static.platzi.com/media/public/uploads/main_72eca5fc-a09c-4e0d-866f-cc567aba12c5.py
+
+https://static.platzi.com/media/public/uploads/read_csv_784f9c37-9c23-4394-ad5b-0d141cc0d033.py
+
+https://static.platzi.com/media/public/uploads/data_1e66c1d8-5b44-40c8-802c-abc17405918f.csv
+
+https://static.platzi.com/media/public/uploads/utils_e2f67b0c-ba79-47ce-9c1a-e312375921ab.py
