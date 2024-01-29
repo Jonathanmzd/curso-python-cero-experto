@@ -1143,3 +1143,38 @@ https://platzi.com/blog/administracion-usuarios-servidores-linux/
 https://platzi.com/blog/cosas-que-nos-sabias-sobre-el-sistema-de-permisos-de-linux-realmente-es-octal/
 
 https://www.w3schools.com/python/python_file_write.asp
+
+### Leer un CSV
+
+![Alt text](image-43.png)
+
+![Alt text](image-44.png)
+
+```py
+import csv
+
+def read_csv(path):
+  with open(path, 'r') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    header = next(reader)
+    data = []
+    for row in reader:
+      iterable = zip(header, row)
+      country_dict = {key: value for key, value in iterable}
+      data.append(country_dict)
+    return data
+
+if __name__ == '__main__':
+  data = read_csv('./app/data.csv')
+  print(data[0])
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/read_csv_a6f9e306-19a2-42c6-a18a-f0f446619ee9.py
+
+https://www.kaggle.com/
+
+https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
+
+https://www.w3schools.com/python/python_file_open.asp
