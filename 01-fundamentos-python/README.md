@@ -1089,9 +1089,68 @@ while counter < 20:
     continue
   print(counter)
 ```
+![Alt text](image-31.png)
 
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/21_while_207a5e7a-0949-4e17-8ec0-e7b4a6237885.py
 
 https://www.w3schools.com/python/python_while_loops.asp
+
+
+### Loops: For
+
+![Alt text](image-32.png)
+
+```py
+'''
+for element in range(1, 21):
+  print(element)
+
+'''
+
+my_list = [23, 45, 67, 89 ,43]
+for element in my_list:
+  print(element)
+
+my_tuple = ('nico', 'juli', 'santi')
+for element in my_tuple:
+  print(element)
+
+
+product = {
+  'name': 'Camisa',
+  'price': 100,
+  'stock': 89
+}
+
+for key in product:
+  print(key, '=>', product[key])
+
+for key, value in product.items():
+  print(key, '=>', value)
+
+people = [
+  {
+    'name': 'nico',
+    'age': 34
+  },
+  {
+    'name': 'zule',
+    'age': 45
+  },
+  {
+    'name': 'santi',
+    'age': 4
+  }
+]
+
+for person in people:
+  print('name =>', person['name'])
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/22_for_e6bd525b-bf27-4ae9-92c3-0e931423aa42.py
+
+https://www.w3schools.com/python/python_for_loops.asp
