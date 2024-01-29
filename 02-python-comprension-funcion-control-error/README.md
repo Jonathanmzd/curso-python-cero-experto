@@ -792,3 +792,43 @@ print(result)
 #### Recursos
 
 https://static.platzi.com/media/public/uploads/18_reduce_f7adca6c-b7f0-41d7-babb-477b6e68f1cd.py
+
+
+### Módulos
+
+![Alt text](image-32.png)
+
+```py
+#sistema
+import sys
+print(sys.path)
+
+# Expresiones Regulares
+import re
+text = 'Mi numero de telefono es 311 123 121, el codigo del pais es 57, mi numero de la suerte 3'
+result = re.findall('[0-9]+', text)
+print(result)
+
+# hora 
+import time
+timestamp = time.time()
+print(timestamp)
+
+# hora local
+local = time.localtime()
+result = time.asctime(local)
+print(result)
+
+# collections 
+import collections
+numbers = [1,1,2,1,2,1,4,5,3,3,21]
+counter = collections.Counter(numbers)
+print(counter)
+```
+
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/19_modules_e6cfd282-989a-4b05-8636-bdf9ddcc8ebc.py
+
+https://www.w3schools.com/python/python_modules.asp
