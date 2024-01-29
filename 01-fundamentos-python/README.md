@@ -739,3 +739,72 @@ print('hola' in types)
 https://static.platzi.com/media/public/uploads/16_lists_09eb2e15-2c15-4bf1-8a9a-952e49a506be.py
 
 https://www.w3schools.com/python/python_lists.asp
+
+
+### Métodos de listas
+
+* append(): Añade un ítem al final de la lista.
+* clear(): Vacía todos los ítems de una lista.
+* extend(): Une una lista a otra.
+* count(): Cuenta el número de veces que aparece un ítem.
+* index(): Devuelve el índice en el que aparece un ítem (error si no aparece).
+* insert(): Agrega un ítem a la lista en un índice específico.
+* pop(): Extrae un ítem de la lista y lo borra.
+* remove(): Borra el primer ítem de la lista cuyo valor concuerde con el que indicamos.
+* reverse(): Le da la vuelta a la lista actual.
+* sort(): Ordena automáticamente los ítems de una lista por su valor de menor a mayor.
+
+![Alt text](image-25.png)
+
+```py
+# CRUD Create, Read, Update & Delete
+
+numbers = [1, 2 , 3 , 4 , 5]
+print(numbers[1])
+numbers[-1] = 10
+print(numbers)
+
+numbers.append(700)
+print(numbers)
+
+numbers.insert(0, 'hola')
+print(numbers)
+
+numbers.insert(3, 'change')
+print(numbers)
+
+tasks = ['todo 1', 'todo 2', 'todo 3']
+new_list = numbers + tasks
+print(new_list)
+
+index = new_list.index('todo 2')
+new_list[index] = 'todo changed'
+print(new_list)
+
+new_list.remove('todo 1')
+print(new_list)
+
+new_list.pop()
+print(new_list)
+
+new_list.pop(0)
+print(new_list)
+
+new_list.reverse()
+print(new_list)
+
+numbers_a = [1, 4, 6 , 3]
+numbers_a.sort()
+print(numbers_a)
+
+strings = ['re', 'ab', 'ed']
+strings.sort()
+print(strings)
+
+new_list.sort()
+```
+
+#### Recursos
+
+https://static.platzi.com/media/public/uploads/17_crud_55b70298-7476-41f2-8d00-ebf8d6139135.py
+
