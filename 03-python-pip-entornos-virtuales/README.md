@@ -574,3 +574,12 @@ https://fastapi.tiangolo.com/#installation
 https://fastapi.tiangolo.com/advanced/custom-response/#html-response
 
 https://github.com/platzi/curso-python-pip/tree/master/web-server
+
+
+### ¿Qué es Docker?
+
+![Alt text](image-47.png)
+
+#### Recursos
+
+https://docs.docker.com/
