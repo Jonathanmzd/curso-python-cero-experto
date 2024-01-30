@@ -281,3 +281,65 @@ Los entornos virtuales son una forma de crear un sistema operativo virtual dentr
 * Ofrecen una forma conveniente y segura de utilizar diferentes aplicaciones y tecnologías en un mismo equipo
 
 -- En resumen, los entornos virtuales ofrecen una forma conveniente y segura 🔒 de utilizar diferentes aplicaciones y tecnologías en un mismo equipo, lo que puede ser muy útil para muchos usuarios y situaciones diferentes
+
+### Usando entornos virtuales en Python     
+
+Ambientes virtuales
+
+Verificar donde esta python y pip
+
+```sh
+# para observar desde donde se ejecuta python
+which python3
+
+# para observar donde se ejecuta los paquetes de python
+which pip3
+```
+
+Si estas en linus o wsl debes instalar
+
+```sh
+sudo apt install -y python3-venv
+```
+
+![Alt text](image-26.png)
+
+Poner en cada proyecto en su propio ambiente, entrar en cada carpeta.
+
+```sh
+python3 -m venv env
+```
+
+![Alt text](image-27.png)
+
+Activar el ambiente
+
+```sh
+source env/bin/activate
+```
+
+![Alt text](image-28.png)
+
+
+Salir del ambiente virtual
+
+```sh
+deactivate
+```
+
+![Alt text](image-29.png)
+
+
+Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo
+
+```sh
+pip3 install matplotlib==3.5.0
+```
+
+Verificar las instalaciones
+
+```sh
+pip3 freeze
+```
+
+![Alt text](image-24.png)
