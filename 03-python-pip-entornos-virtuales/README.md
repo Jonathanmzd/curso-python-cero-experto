@@ -257,3 +257,27 @@ https://pypi.org/
 
 ![Alt text](image-22.png)
 
+### ¿Qué es un ambiente virtual?
+
+Instalar a nivel global puede causar distintos problemas al momento de manejar diferentes proyectos, por ejemplo para algunos proyectos necesitaras otro tipo de version, libreria o modulos y para solucionar esto se creo un ambiente virtual en python el cual encapsula cada proyecto y no lo deja de forma compartida.
+
+Para los que apenas comienzan, esto puede parecer contra intuitivo, porque es logico pensar, bueno, pero que tanto puede cambiar, de una version a otra, igual todo se programa de la misma manera, son los mismos comandos, siempre utilizo la misma manera de programar, etc... Pero si hay un gran problema, aunque no lo veamos a simple vista, pero la manera como configuramos un proyecto, puede ser muy diferente a como configuermos un segundo y asi sucesivamente, que sucede con esto, que las versiones de las librerias puedes ser diferentes, y si es cierto que no cambia la manera como programamos, si cambia la manera como estas pueden estar distribuidas en el codigo, y causas posteriores problemas. Y segundo, que apesar que sea un poco mas demorado hacer todo el proceso de crear entornos virtuales, si es mejor y mucho mas ordenado, para que sepamos exactamente como esta ubicado todo en nuestro computador, y posteriormente en Github o Gitlab.
+
+![Alt text](image-23.png)
+
+
+Les dejo un resumen de qué son los entornos / ambientes virtuales y cuáles son los beneficios cuando lo comparamos con instalaciones de forma local 🌐vs🖥️ _
+
+--
+
+Los entornos virtuales son una forma de crear un sistema operativo virtual dentro de otro sistema operativo. Esto permite a un usuario tener varios sistemas operativos diferentes en un mismo equipo físico, lo que puede ser muy útil en situaciones en las que es necesario utilizar diferentes aplicaciones o tecnologías que requieren entornos diferentes
+
+--
+
+* Permiten utilizar varios sistemas operativos en un mismo equipo físico
+* Permiten instalar y utilizar diferentes aplicaciones y tecnologías de manera segura, sin tener que hacer cambios permanentes en el sistema operativo principal
+* Pueden ser fácilmente movidos o copiados, lo que significa que pueden ser utilizados en diferentes equipos o compartidos con otros usuarios
+* También pueden ser fácilmente respaldados y restaurados en caso de que se produzca un problema, lo que puede ayudar a prevenir la pérdida de datos o el tiempo de inactividad
+* Ofrecen una forma conveniente y segura de utilizar diferentes aplicaciones y tecnologías en un mismo equipo
+
+-- En resumen, los entornos virtuales ofrecen una forma conveniente y segura 🔒 de utilizar diferentes aplicaciones y tecnologías en un mismo equipo, lo que puede ser muy útil para muchos usuarios y situaciones diferentes
