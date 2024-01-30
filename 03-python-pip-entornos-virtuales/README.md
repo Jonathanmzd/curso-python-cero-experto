@@ -489,3 +489,88 @@ cat requirements.txt
 #### Recursos
 
 https://github.com/platzi/curso-python-pip/tree/master/app
+
+
+### Python para Backend: web server con FastAPI
+
+**FastAPI**
+
+Es un framework de Python para crear aplicaciones web rápidas y seguras. Utilice la mejor OpenAPI para definir la interfaz de la aplicación y proporcione un conjunto de herramientas para validar y documentar la API de manera automática.
+
+**Uvicorn**
+
+Es un servidor ASGI (Asynchronous Server Gateway Interface) de alto rendimiento para ejecutar aplicaciones ASGI como FastAPI. Es una alternativa a otros servidores ASGI como Daphne y Hypercorn.
+
+FastAPI y Uvicorn se utilizan juntos para proporcionar un entorno rápido y fácil de usar para el desarrollo y el uso de aplicaciones web basadas en ASGI.
+
+```sh
+pip3 install fastapi
+```
+
+![Alt text](image-42.png)
+
+```sh
+pip3 install "uvicorn[standar]"
+```
+
+![Alt text](image-43.png)
+
+Actualizar el documento que contiene las librerias
+
+```sh
+pip3 freeze > requirements.txt
+``` 
+
+ver que se ha incluido pandas a requirements.txt
+
+```sh
+cat requirements.txt
+``` 
+
+![Alt text](image-44.png)
+
+A continuación, puede comenzar a crear su primera aplicación FastAPI. Por ejemplo, aquí tienes un ejemplo de una aplicación que expone una ruta "/" que recibe una solicitud GET y devuelve un mensaje de bienvenida:
+
+```py
+# web-server | main.py
+import store
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+
+app = FastAPI()
+
+@app.get('/')
+def get_list():
+    return [1,2,3,]
+
+@app.get('/contact', response_class=HTMLResponse)
+def get_list():
+    return """
+        <h1>Hola soy una pagina</h1>
+        <p>soy un parrafo</p>
+    """
+
+def run():
+    store.get_categories()
+
+if __name__ == '__main__':
+    run()
+```
+
+Arancar el servidor de uvicorn aplicamos el flat --reload para que escuche los cambios y relance el servidor
+
+```sh
+uvicorn main:app --reload
+```
+
+![Alt text](image-45.png)
+
+![Alt text](image-46.png)
+
+#### Recursos
+
+https://fastapi.tiangolo.com/#installation
+
+https://fastapi.tiangolo.com/advanced/custom-response/#html-response
+
+https://github.com/platzi/curso-python-pip/tree/master/web-server
