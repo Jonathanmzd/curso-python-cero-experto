@@ -119,6 +119,38 @@ sudo python3 get-pip.py
 
 ```bash
 # Dependencias en entorno profesional
-apt install -y build-essential libssl-dev libffi-dev python3-dev
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
 ![Alt text](image-13.png)
+
+### Instalación en Mac
+
+![Alt text](image-14.png)
+
+Comandos utilizados
+
+```bash
+python o python3
+
+exit()
+```
+
+Normalmente viene instalado en Mac, en caso de que no lo tenga continuar con estos comandos Herramientas de codigo
+
+```bash
+sudo xcode-select --install
+
+sudo xcode-select --reset
+```
+
+Instalación de python
+
+```bash
+brew install python3
+```
+
+Verificar la Instalación
+
+```bash
+python3
+```
