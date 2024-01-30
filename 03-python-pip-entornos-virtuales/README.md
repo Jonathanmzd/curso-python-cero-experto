@@ -172,3 +172,23 @@ code .
 ![Alt text](image-17.png)
 
 ![Alt text](image-18.png)
+
+### Flujo de trabajo en Python
+
+#### Game Project
+
+Para iniciar el juego realizar lo siguiente en la terminal vscode
+
+```sh
+cd game
+python3 main.py
+```
+
+![Alt text](image-19.png)
+
+
+#### Recursos
+
+https://replit.com/@NicolasMolina13/Python-102
+
+https://github.com/platzi/curso-python-pip/commit/cdf98e624027091d89c93e6be71362e63e069ebc
