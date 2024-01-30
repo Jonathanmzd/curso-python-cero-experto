@@ -752,3 +752,27 @@ python3 main.py
 
 ![Alt text](image-58.png)
 
+### Docker para el día a día: automatizando la vinculación de archivos
+
+para realizar una mejor experiencia de usuario debemos enlazar los sistemas de archivo, agregar:
+
+```yml
+volumes:
+    - .:/app
+```
+
+Quedaria de la siguiente manera
+
+```yml
+version: '3.7'
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+     - '80:80'
+```
+
