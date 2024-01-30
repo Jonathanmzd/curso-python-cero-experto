@@ -432,3 +432,60 @@ pip freeze > requeriments.txt
 https://requests.readthedocs.io/en/latest/
 
 https://github.com/platzi/curso-python-pip/tree/master/web-server
+
+
+### Pandas
+
+Es una de las librerias mas utilizadas en python y nos sirven para analizar y manipular datos de archivos duros
+
+Activar anbiente del proyecto
+
+```sh
+source env/bin/activate
+``` 
+Verificar
+
+```sh
+which python3
+``` 
+
+Ver que hay dentro del archivo en el cual se evidencia que no hay pandas
+
+```sh
+cat reqruirements.txt
+``` 
+
+Agregar nueva libreria
+
+```sh
+pip3 install pandas
+``` 
+
+![Alt text](image-38.png)
+
+Verificar librerias instaladas
+
+```sh
+pip3 freeze
+``` 
+![Alt text](image-39.png)
+
+Actualizar el documento que contiene las librerias
+
+```sh
+pip3 freeze > requirements.txt
+``` 
+
+ver que se ha incluido pandas a requirements.txt
+
+```sh
+cat requirements.txt
+``` 
+
+![Alt text](image-40.png)
+
+![Alt text](image-41.png)
+
+#### Recursos
+
+https://github.com/platzi/curso-python-pip/tree/master/app
