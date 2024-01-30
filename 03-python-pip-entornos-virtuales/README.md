@@ -154,3 +154,21 @@ Verificar la Instalación
 ```bash
 python3
 ```
+
+### Python con VSCode
+
+![Alt text](image-15.png)
+
+adicional si se esta usando WSL
+
+![Alt text](image-16.png)
+
+creamos el proyecto ingresamos a la carpeta y abrimos el visual
+
+```bash
+code .
+```
+
+![Alt text](image-17.png)
+
+![Alt text](image-18.png)
