@@ -380,3 +380,55 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+### Solicitudes HTTP con Requests
+
+Crear un entorno
+
+```sh
+python3 -m venv env
+```
+
+Activar un entorno virtual
+
+```sh
+source env/bin/activate
+```
+![Alt text](image-34.png)
+
+Verificar que estemos dentro del entorno virtual
+
+```sh
+which python3
+```
+
+![Alt text](image-35.png)
+
+Instalar la dependencia dentro del entorno virtual
+
+```sh
+pip3 install requests
+```
+![Alt text](image-36.png)
+
+Verificar la instalacion
+
+```sh
+pip3 freeze
+```
+
+Crear el archivo para que cualquier persona pueda desplegar el proyecto
+
+```sh
+pip freeze > requeriments.txt
+```
+
+![Alt text](image-37.png)
+
+
+
+#### Recursos
+
+https://requests.readthedocs.io/en/latest/
+
+https://github.com/platzi/curso-python-pip/tree/master/web-server
