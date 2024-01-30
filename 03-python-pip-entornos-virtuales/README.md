@@ -343,3 +343,40 @@ pip3 freeze
 ```
 
 ![Alt text](image-24.png)
+
+### requirements.txt
+
+![Alt text](image-30.png)
+
+D Requirements.txt = Archivo que gestiona todas las dependencias y en que versiones se necesitan.
+
+Generar el archivo con el siguiente comando
+
+```sh
+pip3 freeze > requirements.txt
+```
+![Alt text](image-31.png)
+
+Revisar lo que hay dentro del archivo
+```sh
+cat requirements.txt
+```
+![Alt text](image-32.png)
+
+Instalar las dependencias necesarias para contribuir más rápido en proyectos
+```sh
+pip3 install -r requirements.txt
+```
+![Alt text](image-33.png)
+
+Preparar archivo para contribución
+
+```md
+# Instrucciones README.md del App Project
+git clone
+cd app
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
