@@ -673,3 +673,82 @@ Para otras distribuciones de Linux:
 * Install Docker Engine on Debian https://docs.docker.com/engine/install/debian/
 * Install Docker Engine on Fedora https://docs.docker.com/engine/install/fedora/
 
+
+### Dockerizando scripts de Python
+
+Archivos importantes
+
+```yml
+# python-cero-experto/03-python-pip-entornos-virtuales/app/docker-compose.yml
+
+version: '3.7'
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+     - '80:80'
+```
+
+```Dockerfile
+# python-cero-experto/03-python-pip-entornos-virtuales/app/Dockerfile
+
+FROM python:3.10
+
+WORKDIR /app
+COPY requirements.txt /app/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+COPY . /app
+
+CMD bash -c "while true; do sleep 1; done"
+```
+
+1) iniciar docker desktop 
+2) Crear Dockerfile
+3) Crear docker-compose.yml
+4) comando para construir el Sistema siguiendo los pasos del Dockerfile
+
+```sh
+docker-compose build
+```
+
+![Alt text](image-52.png)
+
+5) lanzar el contenedor
+
+```sh
+docker-compose up -d
+```
+
+![Alt text](image-55.png)
+
+6) verificar el estado del contenedor 
+
+```sh
+docker-compose ps
+```
+
+![Alt text](image-56.png)
+
+
+7) ingresar al ambiente 
+
+```sh
+docker-compose exec app-csv bash
+```
+
+![Alt text](image-57.png)
+
+8) ejecutar el programa dentro del contenedor
+
+```sh
+python3 main.py
+```
+
+![Alt text](image-58.png)
+
