@@ -776,3 +776,89 @@ services:
      - '80:80'
 ```
 
+#### Recurso
+
+https://github.com/platzi/curso-python-pip/tree/master/app
+
+
+### Dockerizando web services
+
+Para tener el servidor encendido para subir ese contenedor a la nube 
+
+Lanzar el servidor de uvicorn
+
+```Dockerfile
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+```
+
+Archivo completo
+
+```Dockerfile
+# python-cero-experto/03-python-pip-entornos-virtuales/web-server/Dockerfile
+FROM python:3.10
+
+WORKDIR /app
+COPY requirements.txt /app/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+COPY . /app
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+```
+
+Cambiamos en el docker-compose.yml el nombre a web-server y agregamos el enlace de los puertos:
+
+```yml
+    ports:
+     - '80:80'
+```
+
+
+```yml
+# python-cero-experto/03-python-pip-entornos-virtuales/web-server/docker-compose.yml
+version: '3.7'
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+     - '80:80'
+```
+
+Construir la imagen del contenedor
+
+```sh
+docker-compose build
+```
+
+![Alt text](image-59.png)
+
+Lanzar el contenedor
+
+```sh
+docker-compose up -d
+```
+
+![Alt text](image-60.png)
+
+Ver el estado del contenedor
+
+```sh
+docker-compose ps
+```
+
+![Alt text](image-61.png)
+
+imagenes del proyecto web-server desde el contenedor
+
+![Alt text](image-62.png)
+
+![Alt text](image-63.png)
+
+#### Recursos
+
+https://github.com/platzi/curso-python-pip/tree/master/web-server
