@@ -251,3 +251,9 @@ pip3 freeze
 #### Recursos
 
 https://pypi.org/
+
+
+### Gráficas en Python con PIP
+
+![Alt text](image-22.png)
+
