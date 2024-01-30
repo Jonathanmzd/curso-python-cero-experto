@@ -192,3 +192,62 @@ python3 main.py
 https://replit.com/@NicolasMolina13/Python-102
 
 https://github.com/platzi/curso-python-pip/commit/cdf98e624027091d89c93e6be71362e63e069ebc
+
+
+### ¿Qué es pip?
+
+pip es una herramienta en Python utilizada para gestionar paquetes de software. El nombre "pip" proviene de "Pip Installs Packages" (Pip Instala Paquetes). Los paquetes son módulos o bibliotecas de Python que se pueden instalar y utilizar en tus proyectos.
+
+Algunas de las funciones clave de pip incluyen:
+
+**Instalación de paquetes**: Puedes utilizar pip para instalar paquetes de Python desde el repositorio PyPI (Python Package Index) o desde otros repositorios.
+
+```sh
+pip install nombre_del_paquete
+```
+
+**Desinstalación de paquetes**: pip también te permite desinstalar paquetes que ya no necesitas.
+
+```sh
+pip uninstall nombre_del_paquete
+```
+
+**Listado de paquetes instalados**: Puedes ver la lista de paquetes instalados en tu entorno virtual o sistema global.
+
+```sh
+pip list
+```
+
+**Actualización de paquetes**: pip te permite actualizar los paquetes instalados a sus versiones más recientes.
+
+```sh
+pip install --upgrade nombre_del_paquete
+```
+
+**Requisitos del proyecto**: Puedes especificar los paquetes y sus versiones en un archivo requirements.txt y luego utilizar pip para instalar todos los paquetes listados en ese archivo.
+
+```sh
+pip install -r requirements.txt
+```
+
+En resumen, pip es una herramienta esencial para la gestión de dependencias en proyectos de Python, facilitando la instalación, actualización y desinstalación de paquetes de manera eficiente.
+
+Ejemplo de instalacion de Dependecias
+
+```sh
+pip install matplotlib
+```
+
+ver Arbol de librerias dentro de la computadora con el comando 
+
+```sh
+pip3 freeze 
+```
+
+![Alt text](image-20.png)
+
+![Alt text](image-21.png)
+
+#### Recursos
+
+https://pypi.org/
