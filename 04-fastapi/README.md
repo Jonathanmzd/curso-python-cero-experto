@@ -119,3 +119,12 @@ Usaremos el método POST para registrar los datos de nuestras películas y tambi
 Finalmente para completar nuestro CRUD realizaremos la modificación y eliminación de datos en nuestra aplicación, para lo cual usaremos los métodos PUT y DELETE respectivamente.
 
 Y lo mejor es que todo esto lo estarás construyendo mientras aprendes FastAPI, te veo en la siguiente clase donde te enseñaré cómo puedes utilizar el método GET.
+
+
+### Método GET en FastAPI
+
+![Alt text](image-10.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-03-metodo-get
