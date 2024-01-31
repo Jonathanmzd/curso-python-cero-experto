@@ -320,3 +320,21 @@ def get_movies() -> List[Movie]:
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta
+
+
+### Códigos de estado HTTP en FastAPI
+
+![Alt text](image-27.png)
+
+```py
+# respuesta de codigos de estado status_code=200
+@app.get('/movies', tags=['movies'], response_model=List[Movie], status_code=200)
+def get_movies() -> List[Movie]:
+    return JSONResponse(status_code=200, content=movies)
+```
+
+#### Recurso
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+https://github.com/platzi/curso-fastapi/tree/clase-12-codigos-de-estado
