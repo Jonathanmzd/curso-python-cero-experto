@@ -283,3 +283,24 @@ class Movie(BaseModel):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-09-validaciuon-de-datos
+
+
+### Validaciones de parámetros con Pydantic
+
+![Alt text](image-23.png)
+
+![Alt text](image-24.png)
+
+muestra la validacion de movies cuando no existe el 0
+
+![Alt text](image-25.png)
+
+```py
+# min_length para validar el ingreso de los datos
+rating:float = Field(ge=1, le=10)
+category:str = Field(min_length=5, max_length=15)
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-10-validaciuon-de-parametros
