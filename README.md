@@ -5,3 +5,5 @@
 ### Curso de Python: Comprehensions, Funciones y Manejo de Errores
 
 ### Curso de Python: PIP y Entornos Virtuales
+
+### Curso de FastAPI
