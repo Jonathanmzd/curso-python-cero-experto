@@ -128,3 +128,21 @@ Y lo mejor es que todo esto lo estarás construyendo mientras aprendes FastAPI, 
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-03-metodo-get
+
+
+### Crear parámetros de ruta en FastAPI
+
+![Alt text](image-11.png)
+
+```py
+@app.get('/movies/{id}', tags=['movies'])
+def get_movie(id: int):
+    for item in movies:
+        if item["id"] == id:
+            return item
+    return []
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-04-parametros-de-ruta
