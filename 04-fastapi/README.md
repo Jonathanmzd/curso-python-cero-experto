@@ -186,3 +186,36 @@ def create_movie(id: int = Body(), title: str = Body(), overview:str = Body(), y
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-06-metodo-post
+
+
+### Métodos PUT y DELETE en FastAPI
+
+![Alt text](image-15.png)
+
+![Alt text](image-16.png)
+
+![Alt text](image-17.png)
+
+```py
+@app.put('/movies/{id}', tags=['movies'])
+def update_movie(id: int, title: str = Body(), overview:str = Body(), year:int = Body(), rating: float = Body(), category: str = Body()):
+	for item in movies:
+		if item["id"] == id:
+			item['title'] = title,
+			item['overview'] = overview,
+			item['year'] = year,
+			item['rating'] = rating,
+			item['category'] = category
+			return movies
+
+@app.delete('/movies/{id}', tags=['movies'])
+def delete_movie(id: int):
+    for item in movies:
+        if item["id"] == id:
+            movies.remove(item)
+            return movies
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-07-metodo-put-delete
