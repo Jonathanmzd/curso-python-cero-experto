@@ -146,3 +146,20 @@ def get_movie(id: int):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-04-parametros-de-ruta
+
+
+### Parámetros Query en FastAPI
+
+![Alt text](image-12.png)
+
+![Alt text](image-13.png)
+
+```py
+@app.get('/movies/', tags=['movies'])
+def get_movies_by_category(category: str, year: int):
+    return category
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-05-parametros-query
