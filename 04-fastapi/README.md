@@ -360,3 +360,25 @@ Luego de que el usuario ingrese sus datos de sesión correctos este obtendrá un
 Al momento de que nuestra API reciba la petición del usuario, comprobará que este le haya enviado el token y validará si es correcto y le pertenece. Finalmente se le dará acceso a la ruta que está solicitando.
 
 En la siguiente clase empezaremos con la creación de una función que nos va a permitir generar tokens usando la librería pyjwt.
+
+
+### Generando tokens con PyJWT
+
+instalar un modulo para el pyJMT
+
+```sh
+# (venv) PS C:\mzd\python-cero-experto\04-fastapi\my-movie-api>
+pip install pyjwt
+```
+
+```py
+from jwt import encode
+
+def create_token(data: dict):
+    token: str = encode(payload=data, key="my_secrete_key", algorithm="HS256")
+    return token
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-13-creacion-de-token
