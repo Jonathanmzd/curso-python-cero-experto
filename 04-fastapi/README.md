@@ -219,3 +219,26 @@ def delete_movie(id: int):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-07-metodo-put-delete
+
+
+### Creación de esquemas con Pydantic
+
+![Alt text](image-18.png)
+
+```py
+from pydantic import BaseModel
+from typing import Optional
+
+
+class Movie(BaseModel):
+    id: Optional[int] = None
+    title: str
+    overview: str
+    year: int
+    rating: float
+    category: str
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-8-creacion-esquemas
