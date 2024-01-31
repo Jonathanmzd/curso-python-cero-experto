@@ -332,9 +332,31 @@ https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta
 def get_movies() -> List[Movie]:
     return JSONResponse(status_code=200, content=movies)
 ```
+![Alt text](image-28.png)
 
 #### Recurso
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 https://github.com/platzi/curso-fastapi/tree/clase-12-codigos-de-estado
+
+
+### Flujo de autenticación en FastAPI
+
+**Flujo de autenticación**
+
+Ahora empezaremos con el módulo de autenticaciones pero antes quiero explicarte un poco acerca de lo que estaremos realizando en nuestra aplicación y cómo será el proceso de autenticación y autorización.
+
+**Ruta para iniciar sesión**
+
+Lo que obtendremos como resultado al final de este módulo es la protección de determinadas rutas de nuestra aplicación para las cuales solo se podrá acceder mediante el inicio de sesión del usuario. Para esto crearemos una ruta que utilice el método POST donde se solicitarán los datos como email y contraseña.
+
+**Creación y envío de token**
+
+Luego de que el usuario ingrese sus datos de sesión correctos este obtendrá un token que le servirá para enviarlo al momento de hacer una petición a una ruta protegida.
+
+**Validación de token**
+
+Al momento de que nuestra API reciba la petición del usuario, comprobará que este le haya enviado el token y validará si es correcto y le pertenece. Finalmente se le dará acceso a la ruta que está solicitando.
+
+En la siguiente clase empezaremos con la creación de una función que nos va a permitir generar tokens usando la librería pyjwt.
