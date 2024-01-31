@@ -72,3 +72,14 @@ uvicorn main:app --reload --port 5000 --host 0.0.0.0
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-01-creacion-aplicacion
+
+
+### Documentación automática con Swagger
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-02-documentacion-swagger
