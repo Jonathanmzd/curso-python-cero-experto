@@ -157,9 +157,32 @@ https://github.com/platzi/curso-fastapi/tree/clase-04-parametros-de-ruta
 ```py
 @app.get('/movies/', tags=['movies'])
 def get_movies_by_category(category: str, year: int):
-    return category
+    return [ item for item in movies if item['category'] == category ]
 ```
 
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-05-parametros-query
+
+
+### Método POST en FastAPI
+
+![Alt text](image-14.png)
+
+```py
+@app.post('/movies', tags=['movies'])
+def create_movie(id: int = Body(), title: str = Body(), overview:str = Body(), year:int = Body(), rating: float = Body(), category: str = Body()):
+    movies.append({
+        "id": id,
+        "title": title,
+        "overview": overview,
+        "year": year,
+        "rating": rating,
+        "category": category
+    })
+    return movies
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-06-metodo-post
