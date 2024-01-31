@@ -21,3 +21,54 @@ es un moderno y rápido marco (framework) web para construir APIs con Python 3.6
 **Activo y en Desarrollo Continuo:** FastAPI es un proyecto activamente mantenido y actualizado. El creador del marco, Sebastián Ramírez, sigue agregando nuevas características y mejoras en cada versión.
 
 En resumen, FastAPI es una opción poderosa y eficiente para construir APIs web con Python, especialmente si estás buscando un marco que combine velocidad, tipado de datos, documentación automática y soporte para programación asíncrona.
+
+
+### Instalación de FastAPI y creación de tu primera aplicación
+
+Instalar python en Windows 
+
+![Alt text](image-1.png)
+
+![Alt text](image.png)
+
+![Alt text](image-2.png)
+
+crear el entorno de python
+
+```sh
+python -m venv venv
+```
+
+Activar el entorno
+
+```sh
+venv/Scripts/activate
+```
+
+![Alt text](image-3.png)
+
+Instalar depencias
+
+```sh
+pip install fastapi
+
+pip install uvicorn
+```
+
+![Alt text](image-4.png)
+
+levantar el servidor de la app
+
+![Alt text](image-5.png)
+
+```sh
+uvicorn main:app --reload --port 5000 --host 0.0.0.0
+```
+
+**--host 0.0.0.0**  para que se muestre en red
+
+![Alt text](image-6.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-01-creacion-aplicacion
