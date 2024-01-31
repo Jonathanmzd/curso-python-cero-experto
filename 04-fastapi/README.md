@@ -304,3 +304,19 @@ category:str = Field(min_length=5, max_length=15)
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-10-validaciuon-de-parametros
+
+
+### JSONResponse: Tipos de respuestas en FastAPI
+
+```py
+# JSONResponse para retornar las respuestas
+@app.get('/movies', tags=['movies'], response_model=List[Movie])
+def get_movies() -> List[Movie]:
+    return JSONResponse(content=movies)
+```
+
+![Alt text](image-26.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta
