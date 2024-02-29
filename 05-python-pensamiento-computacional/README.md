@@ -707,3 +707,52 @@ def aplicar_operaciones(num):
 ```
 
 Como pudimos ver, las funciones son objetos muy versátiles que nos permiten tratarlas de diversas maneras y que nos permiten añadir capas adicionales de abstracción a nuestro programa. Compártenos cómo te imaginas que estas capacidades de Python te pueden ayudar a escribir mejores programas.
+
+![alt text](image-41.png)
+
+### Tuplas
+
+* Son secuencias inmutables de objetos.
+* A diferencia de las cadenas pueden contener cualquier tipo de objeto.
+* Puede utilizarse para devolver varios valores en una función.
+
+Las tuplas al igual que las listas en Python son secuencias pero las tuplas son secuencias inmutables (eso significa que no se pueden modificar) de objetos.
+
+¿Cómo identificar una tupla en Python? Las tuplas en Pyhton poseen siguiente sintaxis:
+
+```py
+tuple_name = ('first_value', 2, 'u_can_add_ints')
+```
+
+Mientras que las listas en Python tienen esta sintaxis:
+
+```py
+list_name = [1,'2', 3]
+```
+
+Como pueden apreciar, para la asignación de las tuplas, el contenido debe ir "empaquetado" mediante paréntesis "()", mientras que para las listas, se empaquetan en corchetes "[]".
+Para declarar una tupla en Python se realiza lo siguiente:
+
+```py
+tuple_name = ()
+```
+
+El contenido de la tupla pueden ser de tipo int, float y string.
+Nota: en caso de que tu tupla sólo contenga un valor, debes agregar una comar ",", por ejemplo:
+En caso de contener un int:
+
+```py
+tuple_name = (1,) 
+```
+
+En caso de contener un float:
+
+```py
+tuple_name = (2.0,) 
+```
+
+En caso de contener un string:
+
+```py
+tuple_name = ('string',) 
+```
