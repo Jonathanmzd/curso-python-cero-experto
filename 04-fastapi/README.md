@@ -403,3 +403,22 @@ def validate_token(token: str) -> dict:
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-14-funcion-para-validar-token
+
+
+### Middlewares de autenticación en FastAPI
+
+Incluir una proteccion a las rutas para este caso usando HTTPBearer.
+
+```py
+# 04-fastapi\my-movie-api\main.py
+class JWTBearer(HTTPBearer):
+    async def __call__(self, request: Request):
+        auth = await super().__call__(request)
+        data = validate_token(auth.credentials)
+        if data['email'] != "admin@gmail.com":
+            raise HTTPException(status_code=403, detail="Credenciales son invalidas")
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-15-funcion-para-solicitar-token
