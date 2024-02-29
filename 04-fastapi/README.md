@@ -539,3 +539,13 @@ Dividir la aplicacion en modulos por medio de los routers
 #### Recurso
 
 <https://github.com/platzi/curso-fastapi-sql/commit/564412c78e72d0897b32998e2f3a999c659ae7a5>
+
+### Servicios para consultar datos
+
+Se crea route de user y se implementa los servicios para movies
+
+![alt text](image-36.png)
+
+#### Recurso
+
+<https://github.com/platzi/curso-fastapi-sql/commit/7c6a36667500bbe3ea66da952aca3efe9f9612a9>
