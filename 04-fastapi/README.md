@@ -531,3 +531,11 @@ class ErrorHandler(BaseHTTPMiddleware):
 #### Recurso
 
 <https://github.com/platzi/curso-fastapi-sql/commit/0990b0cf9d6b19f883774ab4cf923b5725252e48>
+
+### Creación de routers en FastAPI
+
+Dividir la aplicacion en modulos por medio de los routers
+
+#### Recurso
+
+<https://github.com/platzi/curso-fastapi-sql/commit/564412c78e72d0897b32998e2f3a999c659ae7a5>
