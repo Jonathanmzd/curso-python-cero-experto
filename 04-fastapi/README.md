@@ -559,3 +559,14 @@ Se debe un servicio para crear por categorias y registrar, modificar.
 #### Recurso
 
 https://github.com/platzi/curso-fastapi-sql/commit/edff26ade186e8967f3d02f5d656da8aa663499c
+
+
+### Preparando el proyecto para desplegar a producción
+
+Se debe usar el siguiente comando para que todos los modulos se muevan al archivo de configuracion requiremets.txt
+
+```sh
+pip freeze > requiremets.txt
+```
+
+![alt text](image-38.png)
