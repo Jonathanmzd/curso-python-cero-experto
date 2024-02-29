@@ -702,3 +702,50 @@ systemctl status nginx
 # Para reiniciar el servicio de nginx
 systemctl restart nginx
 ```
+
+### Cómo crear una API de alto rendimiento en tiempo récord
+
+![alt text](image-52.png)
+
+![alt text](image-53.png)
+
+![alt text](image-54.png)
+
+![alt text](image-55.png)
+
+![alt text](image-56.png)
+
+![alt text](image-57.png)
+
+![alt text](image-58.png)
+
+Documentacion automatica 
+![alt text](image-59.png)
+
+Valores no Requeridos
+![alt text](image-60.png)
+
+![alt text](image-61.png)
+
+Anotaciones de Tipos
+![alt text](image-62.png)
+
+![alt text](image-63.png)
+
+![alt text](image-64.png)
+
+![alt text](image-65.png)
+
+![alt text](image-66.png)
+
+![alt text](image-67.png)
+
+![alt text](image-68.png)
+
+![alt text](image-69.png)
+
+![alt text](image-70.png)
+
+![alt text](image-71.png)
+
+![alt text](image-72.png)
