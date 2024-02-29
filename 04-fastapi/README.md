@@ -592,3 +592,61 @@ pip freeze > requiremets.txt
 ![alt text](image-46.png)
 
 ![alt text](image-47.png)
+
+
+### Instalación de herramientas para el servidor
+
+Resumen:
+
+```sh
+apt install git
+```
+
+```sh
+apt install nginx
+```
+
+```sh
+apt install nodejs
+```
+
+```sh
+apt install npm
+```
+
+```sh
+apt install pm2@latest -g
+```
+
+```sh
+# listar si esta funcionando
+pm2 list
+
+# ver estado
+pm2 status
+```
+
+```sh
+instalar virtualenv de python
+```
+
+```sh
+# Modulo para instalar entorno virtual
+apt install python3-venv
+```
+
+```sh
+# crear el virtual env en el droplet
+python3 -m venv venv
+```
+
+```sh
+Activar el venv En Linux
+source venv/bin/activate
+```
+
+```sh
+# Instalar de todos los modulos del archivo requiremets.txt
+pip install -r requiremets.txt
+```
+
