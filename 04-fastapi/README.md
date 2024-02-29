@@ -422,3 +422,16 @@ class JWTBearer(HTTPBearer):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-15-funcion-para-solicitar-token
+
+
+### SQLAlchemy: el ORM de FastAPI
+
+¿Que es un orm?
+
+Es una libreria que nos permite manipular las tablas de una base de datos como si fueran objetos de nuestra aplicacion.
+
+![alt text](image-29.png)
+
+¿Que es SQLAlchemy?
+
+Es una libreria para python que faciita el acceso a una base de datos relacional mapeando tablas SQL a clases.
