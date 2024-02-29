@@ -85,3 +85,57 @@ Además, el lenguaje de alto nivel permite escribir códigos mediante idiomas qu
 **Semántica estática** Define qué enunciados con sintaxis correcta tienen significado
 
 **Semántica** Define el significado. En los lenguajes de programación sólo hay un significado.
+
+### Preparación de tu computadora
+
+Antes de comenzar este curso asegúrate de preparar tu entorno de trabajo para poder hacer todos los ejercicios. A continuación te compartiré los pasos que debes seguir para configurar tu computadora.
+
+Si estás usando Windows asegúrate de instalar lo siguiente en tu computadora:
+
+Python 3.7 (o superior)
+
+1. Para obtener el instalador dirígete a https://www.python.org/downloads/
+
+![alt text](image-1.png)
+
+2. Descarga el instalador y ejecútalo en tu computadora.
+
+![alt text](image-2.png)
+
+3. Habilita la casilla de verificación en Install launcher for all users y Add Python 3.8 to PATH. A continuación presiona en Install Now. Windows te solicitará permisos para instalar Python en tu computadora.
+
+![alt text](image-3.png)
+
+4. Al finalizar la instalación se abrirá una ventana como la siguiente, en ella deberás presionar en la opción Disable path length limit. Windows te solicitará permisos para realizar este cambio.
+
+![alt text](image-4.png)
+
+Visual Studio Code
+En el curso el profesor utiliza Visual Studio Code, un editor de textos que tiene integradas varias herramientas que te ayudarán a desarrollar tus ejercicios con facilidad. Para obtenerlo en tu computadora, dirígete a: https://code.visualstudio.com/
+
+![alt text](image-5.png)
+
+1. Realiza una instalación normal de Visual Studio code.
+
+![alt text](image-6.png)
+
+Una vez instalado se ejecutará Visual Studio Code.
+
+2. En Visual Studio Code dirígete al panel de Extensiones, se encuentra en el panel lateral izquierdo. Ahí deberás buscar la extensión llamada Python.
+
+![alt text](image-7.png)
+
+3. Selecciona la extensión creada por Microsoft, la identificarás por ser similar a la que se muestra en la imágen. Una vez seleccionada, instálala
+
+![alt text](image-8.png)
+
+4. Una vez instalada, reinicia Visual Studio Code.
+Listo con esto podrás correr los programas que escribas en python en la terminal de Visual Studio Code.
+
+Cuando quieras correr tu programa en la terminal de Visual Studio Code, puedes introducir la dirección como lo muestra el profesor en el curso o presionar en el botón “Run Python File in Terminal”
+
+![alt text](image-9.png)
+
+
+Para este caso en particular tengo instalado WSL Ubuntu
+
