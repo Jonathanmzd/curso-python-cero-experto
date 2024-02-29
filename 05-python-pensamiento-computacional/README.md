@@ -234,3 +234,30 @@ Resultado
 ![alt text](image-11.png)
 
 ![alt text](image-12.png)
+
+### Asignación de variables
+
+![alt text](image-13.png)
+
+Corregir definicion de variables
+
+![alt text](image-14.png)
+
+Reasignacion de memoria
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+**Un recolector de basura (del inglés garbage collector)** es un mecanismo implícito de gestión de memoria implementado en algunos lenguajes de programación de tipo interpretado o semiinterpretado.
+
+**Variables**
+
+* Pueden contener mayúsculas, minúsculas, números (sin comenzar con uno) y el símbolo _
+* No pueden llamarse como las palabras reservadas
+
+![alt text](image-17.png)
+
+* Hacen los programas más comprensibles.
+* Son simplemente nombres que apuntan a un valor en memoria.
+* El operador de asignación (=) asocia una variable con un valor.
