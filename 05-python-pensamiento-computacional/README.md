@@ -564,3 +564,10 @@ Los algoritmos dependen del hadware.
 
 * Similar a enumeración exhaustiva, pero no necesita una respuesta exacta.
 * Podemos aproximar soluciones con un margen de error que llamaremos epsilon.
+
+### Búsqueda Binaria
+
+![alt text](image-31.png)
+
+* Cuando la respuesta se encuentra en un conjunto ordenado, podemos utilizar búsqueda binaria 
+* Es altamente eficiente, pues corta el espacio de búsqueda en dos por cada iteración
