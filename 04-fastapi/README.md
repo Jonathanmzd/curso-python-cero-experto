@@ -457,3 +457,31 @@ Configuracion para la base de datos
 * Crear la carpeta config
 * Dentro de dicha carpeta crear el archivo __init__.py para que detecte la carpeta como un modulo.
 * Crear otro archivo llamado database.py donde añadiremos las configuraciones.
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/tree/01-configuracion-base-datos
+
+### Creación de modelos con SQLAlchemy
+
+
+```sh
+# 04-fastapi/my-movie-api/models/movie.py
+from config.database import Base
+from sqlalchemy import Column, Integer, String, Float
+
+class Movie(Base):
+
+    __tablename__ = "movies"
+
+    id = Column(Integer, primary_key = True)
+    title = Column(String)
+    overview = Column(String)
+    year = Column(Integer)
+    rating = Column(Float)
+    category = Column(String)
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e265108eaad1
