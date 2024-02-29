@@ -485,3 +485,12 @@ class Movie(Base):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e265108eaad1
+
+
+### Registro de datos con SQLAlchemy
+
+![alt text](image-32.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd34146c99999e85
