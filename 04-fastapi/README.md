@@ -570,3 +570,7 @@ pip freeze > requiremets.txt
 ```
 
 ![alt text](image-38.png)
+
+### Crear repositorio en GitLab
+
+![alt text](image-39.png)
