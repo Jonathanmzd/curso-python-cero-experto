@@ -574,3 +574,21 @@ pip freeze > requiremets.txt
 ### Crear repositorio en GitLab
 
 ![alt text](image-39.png)
+
+### Crear Droplet en Digital Ocean
+
+![alt text](image-40.png)
+
+![alt text](image-41.png)
+
+![alt text](image-42.png)
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+![alt text](image-45.png)
+
+![alt text](image-46.png)
+
+![alt text](image-47.png)
