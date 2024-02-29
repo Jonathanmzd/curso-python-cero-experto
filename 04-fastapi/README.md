@@ -22,10 +22,9 @@ es un moderno y rápido marco (framework) web para construir APIs con Python 3.6
 
 En resumen, FastAPI es una opción poderosa y eficiente para construir APIs web con Python, especialmente si estás buscando un marco que combine velocidad, tipado de datos, documentación automática y soporte para programación asíncrona.
 
-
 ### Instalación de FastAPI y creación de tu primera aplicación
 
-Instalar python en Windows 
+Instalar python en Windows
 
 ![Alt text](image-1.png)
 
@@ -71,8 +70,7 @@ uvicorn main:app --reload --port 5000 --host 0.0.0.0
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-01-creacion-aplicacion
-
+<https://github.com/platzi/curso-fastapi/tree/clase-01-creacion-aplicacion>
 
 ### Documentación automática con Swagger
 
@@ -82,8 +80,7 @@ https://github.com/platzi/curso-fastapi/tree/clase-01-creacion-aplicacion
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-02-documentacion-swagger
-
+<https://github.com/platzi/curso-fastapi/tree/clase-02-documentacion-swagger>
 
 ### Métodos HTTP en FastAPI
 
@@ -120,15 +117,13 @@ Finalmente para completar nuestro CRUD realizaremos la modificación y eliminaci
 
 Y lo mejor es que todo esto lo estarás construyendo mientras aprendes FastAPI, te veo en la siguiente clase donde te enseñaré cómo puedes utilizar el método GET.
 
-
 ### Método GET en FastAPI
 
 ![Alt text](image-10.png)
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-03-metodo-get
-
+<https://github.com/platzi/curso-fastapi/tree/clase-03-metodo-get>
 
 ### Crear parámetros de ruta en FastAPI
 
@@ -145,8 +140,7 @@ def get_movie(id: int):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-04-parametros-de-ruta
-
+<https://github.com/platzi/curso-fastapi/tree/clase-04-parametros-de-ruta>
 
 ### Parámetros Query en FastAPI
 
@@ -162,8 +156,7 @@ def get_movies_by_category(category: str, year: int):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-05-parametros-query
-
+<https://github.com/platzi/curso-fastapi/tree/clase-05-parametros-query>
 
 ### Método POST en FastAPI
 
@@ -185,8 +178,7 @@ def create_movie(id: int = Body(), title: str = Body(), overview:str = Body(), y
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-06-metodo-post
-
+<https://github.com/platzi/curso-fastapi/tree/clase-06-metodo-post>
 
 ### Métodos PUT y DELETE en FastAPI
 
@@ -199,14 +191,14 @@ https://github.com/platzi/curso-fastapi/tree/clase-06-metodo-post
 ```py
 @app.put('/movies/{id}', tags=['movies'])
 def update_movie(id: int, title: str = Body(), overview:str = Body(), year:int = Body(), rating: float = Body(), category: str = Body()):
-	for item in movies:
-		if item["id"] == id:
-			item['title'] = title,
-			item['overview'] = overview,
-			item['year'] = year,
-			item['rating'] = rating,
-			item['category'] = category
-			return movies
+ for item in movies:
+  if item["id"] == id:
+   item['title'] = title,
+   item['overview'] = overview,
+   item['year'] = year,
+   item['rating'] = rating,
+   item['category'] = category
+   return movies
 
 @app.delete('/movies/{id}', tags=['movies'])
 def delete_movie(id: int):
@@ -218,8 +210,7 @@ def delete_movie(id: int):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-07-metodo-put-delete
-
+<https://github.com/platzi/curso-fastapi/tree/clase-07-metodo-put-delete>
 
 ### Creación de esquemas con Pydantic
 
@@ -241,12 +232,11 @@ class Movie(BaseModel):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-8-creacion-esquemas
-
+<https://github.com/platzi/curso-fastapi/tree/clase-8-creacion-esquemas>
 
 ### Validaciones de tipos de datos con Pydantic
 
-validaciones por defecto 
+validaciones por defecto
 
 ![Alt text](image-19.png)
 
@@ -282,8 +272,7 @@ class Movie(BaseModel):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-09-validaciuon-de-datos
-
+<https://github.com/platzi/curso-fastapi/tree/clase-09-validaciuon-de-datos>
 
 ### Validaciones de parámetros con Pydantic
 
@@ -303,8 +292,7 @@ category:str = Field(min_length=5, max_length=15)
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-10-validaciuon-de-parametros
-
+<https://github.com/platzi/curso-fastapi/tree/clase-10-validaciuon-de-parametros>
 
 ### JSONResponse: Tipos de respuestas en FastAPI
 
@@ -319,8 +307,7 @@ def get_movies() -> List[Movie]:
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta
-
+<https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta>
 
 ### Códigos de estado HTTP en FastAPI
 
@@ -332,14 +319,14 @@ https://github.com/platzi/curso-fastapi/tree/clase-11-tipos-de-respuesta
 def get_movies() -> List[Movie]:
     return JSONResponse(status_code=200, content=movies)
 ```
+
 ![Alt text](image-28.png)
 
 #### Recurso
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+<https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>
 
-https://github.com/platzi/curso-fastapi/tree/clase-12-codigos-de-estado
-
+<https://github.com/platzi/curso-fastapi/tree/clase-12-codigos-de-estado>
 
 ### Flujo de autenticación en FastAPI
 
@@ -361,7 +348,6 @@ Al momento de que nuestra API reciba la petición del usuario, comprobará que e
 
 En la siguiente clase empezaremos con la creación de una función que nos va a permitir generar tokens usando la librería pyjwt.
 
-
 ### Generando tokens con PyJWT
 
 instalar un modulo para el pyJMT
@@ -381,7 +367,7 @@ def create_token(data: dict):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-13-creacion-de-token
+<https://github.com/platzi/curso-fastapi/tree/clase-13-creacion-de-token>
 
 ### Validando tokens con PyJWT
 
@@ -402,8 +388,7 @@ def validate_token(token: str) -> dict:
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-14-funcion-para-validar-token
-
+<https://github.com/platzi/curso-fastapi/tree/clase-14-funcion-para-validar-token>
 
 ### Middlewares de autenticación en FastAPI
 
@@ -421,8 +406,7 @@ class JWTBearer(HTTPBearer):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi/tree/clase-15-funcion-para-solicitar-token
-
+<https://github.com/platzi/curso-fastapi/tree/clase-15-funcion-para-solicitar-token>
 
 ### SQLAlchemy: el ORM de FastAPI
 
@@ -455,15 +439,14 @@ pip install sqlalchemy
 Configuracion para la base de datos
 
 * Crear la carpeta config
-* Dentro de dicha carpeta crear el archivo __init__.py para que detecte la carpeta como un modulo.
+* Dentro de dicha carpeta crear el archivo **init**.py para que detecte la carpeta como un modulo.
 * Crear otro archivo llamado database.py donde añadiremos las configuraciones.
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/tree/01-configuracion-base-datos
+<https://github.com/platzi/curso-fastapi-sql/tree/01-configuracion-base-datos>
 
 ### Creación de modelos con SQLAlchemy
-
 
 ```sh
 # 04-fastapi/my-movie-api/models/movie.py
@@ -484,8 +467,7 @@ class Movie(Base):
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e265108eaad1
-
+<https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e265108eaad1>
 
 ### Registro de datos con SQLAlchemy
 
@@ -493,8 +475,7 @@ https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd34146c99999e85
-
+<https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd34146c99999e85>
 
 ### Consulta de datos con SQLAlchemy
 
@@ -502,8 +483,7 @@ https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd341
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86afa665c8b619f
-
+<https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86afa665c8b619f>
 
 ### Modificación y eliminación de datos con SQLAlchemy
 
@@ -511,17 +491,43 @@ https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86af
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/commit/d423a552252850bf01fd76c2e8eedaa91629f7c5
-
+<https://github.com/platzi/curso-fastapi-sql/commit/d423a552252850bf01fd76c2e8eedaa91629f7c5>
 
 ### SQLModel: el futuro ORM de FastAPI
 
-Esta es una alternativa de ORM creada por el creador de FastAPi 
+Esta es una alternativa de ORM creada por el creador de FastAPi
 
-https://sqlmodel.tiangolo.com/
+<https://sqlmodel.tiangolo.com/>
 
 Comando para instalar este ORM para el uso de este se debe desconectar el anterior de SQLAlchemy
 
 ```sh
 pip install sqlmodel
 ```
+
+### Manejo de errores y middlewares en FastAPI
+
+Este se realiza para el control de errores desde un middleware que captura estos errores, ademas el bearer se incluira dentro de la carpeta middlewares.
+
+```sh
+# 04-fastapi/my-movie-api/middlewares/error_handler.py
+from starlette.middleware.base import BaseHTTPMiddleware
+from fastapi import FastAPI, Request, Response
+from fastapi.responses import JSONResponse
+
+class ErrorHandler(BaseHTTPMiddleware):
+    def __init__(self, app: FastAPI) -> None:
+        super().__init__(app)
+
+    async def dispatch(self, request: Request, call_next) -> Response | JSONResponse:
+        try:
+            return await call_next(request)
+        except Exception as e:
+            return JSONResponse(status_code=500, content={'error': str(e)})
+```
+
+![alt text](image-35.png)
+
+#### Recurso
+
+<https://github.com/platzi/curso-fastapi-sql/commit/0990b0cf9d6b19f883774ab4cf923b5725252e48>
