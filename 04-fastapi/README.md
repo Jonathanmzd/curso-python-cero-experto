@@ -494,3 +494,14 @@ https://github.com/platzi/curso-fastapi-sql/commit/241df52bc5086321950133e1f023e
 #### Recurso
 
 https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd34146c99999e85
+
+
+### Consulta de datos con SQLAlchemy
+
+![alt text](image-33.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86afa665c8b619f
+
+
