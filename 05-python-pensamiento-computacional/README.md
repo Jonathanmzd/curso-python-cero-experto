@@ -596,3 +596,7 @@ Argumentos de Keyword y valores por defecto
 ![alt text](image-35.png)
 
 ![alt text](image-34.png)
+
+### Especificaciones del código
+
+![alt text](image-36.png)
