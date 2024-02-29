@@ -4,6 +4,7 @@ def factorial(n):
     n int > 0
     returns n!
     """
+    print(n)
     if n == 1:
         return 1
     
