@@ -551,3 +551,11 @@ En la mayoría de las implementaciones de Python tenemos 53 bits de precisión p
 Muy cercano a 1/10 pero no exactamente 1/10. Ahora ya sabemos la razón de esa respuesta tan extraña. Hay muy pocas situaciones en la que 1.0 es aceptable, pero 0.9999999999999999 no. Pero ¿Cuál es la moraleja de esta historia?
 
 Hasta ahora hemos verificado igualdad con el operador ==. Sin embargo, cuando estamos trabajando con flotantes es mejor asegurarnos que los números sean aproximados en vez de idénticos. Por ejemplo x < 1.0 and x > 0.99999.
+
+### Enumeración exhaustiva
+
+Enumeración exhaustiva
+
+* También llamado “adivina y verifica”.
+* Las computadoras actuales son muy muy rápidas.
+* Uno de los primeros algoritmos que debes tratar.
