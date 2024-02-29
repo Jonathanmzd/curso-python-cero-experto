@@ -21,7 +21,7 @@ class Movie(BaseModel):
     category:str = Field(min_length=5, max_length=15)
 
     class Config:
-        json_schema_extra = {
+        schema_extra = {
             "example": {
                 "id": 1,
                 "title": "Mi película",
@@ -58,7 +58,9 @@ def message():
 
 @app.post('/login', tags=['auth'])
 def login(user: User):
-    return user
+    if user.email == "admin@gmail.com" and user.password == "admin":
+        token: str = create_token(user.dict())
+        return JSONResponse(status_code=200, content=token)
 
 @app.get('/movies', tags=['movies'], response_model=List[Movie], status_code=200)
 def get_movies() -> List[Movie]:

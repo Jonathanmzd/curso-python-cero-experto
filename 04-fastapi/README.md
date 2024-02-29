@@ -382,3 +382,24 @@ def create_token(data: dict):
 #### Recurso
 
 https://github.com/platzi/curso-fastapi/tree/clase-13-creacion-de-token
+
+### Validando tokens con PyJWT
+
+Creamos metodos para crear y validar el token.
+
+```py
+# 04-fastapi\my-movie-api\jwt_manager.py
+from jwt import encode, decode
+
+def create_token(data: dict) -> str:
+    token: str = encode(payload=data, key="my_secret_key", algorithm="HS256")
+    return token
+
+def validate_token(token: str) -> dict:
+    data: dict = decode(token, key="my_secret_key", algorithms=['HS256'])
+    return data
+```
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi/tree/clase-14-funcion-para-validar-token
