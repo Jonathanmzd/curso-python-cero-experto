@@ -505,3 +505,10 @@ https://github.com/platzi/curso-fastapi-sql/commit/92eceba1dda37e50a0273c11fd341
 https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86afa665c8b619f
 
 
+### Modificación y eliminación de datos con SQLAlchemy
+
+![alt text](image-34.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/commit/d423a552252850bf01fd76c2e8eedaa91629f7c5
