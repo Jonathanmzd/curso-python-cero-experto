@@ -334,3 +334,21 @@ else:
 
 print("Gracias por usar este programa. ¡Nos vemos la proxima!")
 ```
+
+### Iteraciones (loops)
+
+* La mayoría de las tareas computacionales no se pueden lograr con ramificaciones.
+* Cuando queremos que un programa haga lo mismo varias veces, utilizamos iteraciones.
+* Se pueden escribir iteraciones dentro de iteraciones.
+* Podemos utilizar break para salir anticipadamente de una iteración.
+* Tener cuidado de iteraciones infinitas.
+
+![alt text](image-28.png)
+
+comando para ejecutar
+
+```sh
+python3 iteraciones.py
+```
+
+![alt text](image-29.png)
