@@ -79,7 +79,7 @@ def get_movies() -> List[Movie]:
 
 @app.get('/movies/{id}', tags=['movies'], response_model=Movie)
 def get_movie(id: int = Path(ge=1, le=2000)) -> Movie:
-    db = Session
+    db = Session()
     result = db.query(MovieModel).filter(MovieModel.id == id).first()
     if not result:
         return JSONResponse(status_code=404, content={'message': "No encontrado"})
