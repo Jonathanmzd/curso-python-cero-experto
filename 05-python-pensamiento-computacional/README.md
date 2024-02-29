@@ -590,3 +590,9 @@ Definición de funciones
 Argumentos de Keyword y valores por defecto
 
 ![alt text](image-33.png)
+
+### Scope o Alcance
+
+![alt text](image-35.png)
+
+![alt text](image-34.png)
