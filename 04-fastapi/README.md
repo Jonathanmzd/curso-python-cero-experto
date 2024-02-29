@@ -558,8 +558,7 @@ Se debe un servicio para crear por categorias y registrar, modificar.
 
 #### Recurso
 
-https://github.com/platzi/curso-fastapi-sql/commit/edff26ade186e8967f3d02f5d656da8aa663499c
-
+<https://github.com/platzi/curso-fastapi-sql/commit/edff26ade186e8967f3d02f5d656da8aa663499c>
 
 ### Preparando el proyecto para desplegar a producción
 
@@ -592,7 +591,6 @@ pip freeze > requiremets.txt
 ![alt text](image-46.png)
 
 ![alt text](image-47.png)
-
 
 ### Instalación de herramientas para el servidor
 
@@ -650,3 +648,57 @@ source venv/bin/activate
 pip install -r requiremets.txt
 ```
 
+### Ejecutando FastAPI con NGINX
+
+Ejecutar la aplicacion y usar pm2 para ejecutarla como un proceso, revisar ciertas configuraciones en Nginx
+
+```sh
+# comando para revisar que la aplicacion se ejecuta correctamente
+
+uvicorn main:app --port 5000 --host 0.0.0.0
+```
+
+![alt text](image-48.png)
+
+![alt text](image-49.png)
+
+![alt text](image-50.png)
+
+```sh
+# comando para que se ejecute como un proceso
+pm2 start "uvicorn main:app --port 5000 --host 0.0.0.0 --port: 5000" --name my-movie-api
+```
+
+![alt text](image-51.png)
+
+```sh
+# para quitar el puerto 5000 que se muestre cuando se ingresa al url esto se realiza bajo una configuracion de nginx
+nano /etc/nginx/sites-available/my-movie-api
+```
+
+```sh
+# crear lo siguiente
+server {
+    listen 80;
+    server_name 142.93.230.98;
+
+    location / {
+        proxy_pass http://127.0.0.1:5000;
+    }
+}
+```
+
+```sh
+# copiar el archivo anterior a la carpeta sites-enable
+cp /etc/nginx/sites-available/my-movie-api /etc/nginx/sites-enable
+```
+
+```sh
+# ver el estado de nginx
+systemctl status nginx
+```
+
+```sh
+# Para reiniciar el servicio de nginx
+systemctl restart nginx
+```
