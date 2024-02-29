@@ -554,8 +554,13 @@ Hasta ahora hemos verificado igualdad con el operador ==. Sin embargo, cuando es
 
 ### Enumeración exhaustiva
 
-Enumeración exhaustiva
-
 * También llamado “adivina y verifica”.
 * Las computadoras actuales son muy muy rápidas.
 * Uno de los primeros algoritmos que debes tratar.
+
+### Aproximación de soluciones
+
+Los algoritmos dependen del hadware.
+
+* Similar a enumeración exhaustiva, pero no necesita una respuesta exacta.
+* Podemos aproximar soluciones con un margen de error que llamaremos epsilon.
