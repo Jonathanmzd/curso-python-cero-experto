@@ -600,3 +600,12 @@ Argumentos de Keyword y valores por defecto
 ### Especificaciones del código
 
 ![alt text](image-36.png)
+
+### Recursividad
+
+**Algorítmica** Una forma de crear soluciones utilizando el principio de “divide y vencerás.”
+**Programática** Una técnica programática mediante la cual una función se llama a sí misma.
+
+**Factoriales**
+
+![alt text](image-37.png)
