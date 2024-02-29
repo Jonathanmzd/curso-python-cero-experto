@@ -719,7 +719,7 @@ systemctl restart nginx
 
 ![alt text](image-58.png)
 
-Documentacion automatica 
+Documentacion automatica
 ![alt text](image-59.png)
 
 Valores no Requeridos
@@ -749,3 +749,5 @@ Anotaciones de Tipos
 ![alt text](image-71.png)
 
 ![alt text](image-72.png)
+
+### Examen - Curso FastApi
