@@ -756,3 +756,24 @@ En caso de contener un string:
 ```py
 tuple_name = ('string',) 
 ```
+
+### Rangos
+
+* Representan una secuencia de enteros.
+* range(comienzo, fin, pasos)
+* Al igual que las cadenas y las tuplas, los rangos son inmutables.
+* Muy eficientes en uso de memoria y normalmente utilizados en for loops
+* Representan una secuencia de enteros, y se definen como range(inicio, fin, paso), y al igual que las cadenas y las tuplas, los rangos son inmutables.
+* Son muy eficientes en uso de memoria y normalmente son utilizados en for loops.
+* Nuevamente, el final no es inclusivo 👀.
+* Para ver la dirección en memoria de un objeto, usamos la función id(objeto).
+* Si lo que queremos es comparar igualdad de objetos en lugar de igualdad de valores, podemos hacer objeto is objeto_2.
+* Solución al reto: range(1, 100, 2)
+
+```py
+my_range = range(1, 10, 1)
+print(type(my_range)) #Tipo 
+
+for i in range(2, 10, 2): #Imprime pares
+ print(i)
+```
