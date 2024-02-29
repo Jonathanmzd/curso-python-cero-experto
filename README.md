@@ -7,3 +7,5 @@
 ### Curso de Python: PIP y Entornos Virtuales
 
 ### Curso de FastAPI
+
+### Curso de Introducción al Pensamiento Computacional con Python
