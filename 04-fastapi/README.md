@@ -549,3 +549,13 @@ Se crea route de user y se implementa los servicios para movies
 #### Recurso
 
 <https://github.com/platzi/curso-fastapi-sql/commit/7c6a36667500bbe3ea66da952aca3efe9f9612a9>
+
+### Servicios para registrar y modificar datos
+
+Se debe un servicio para crear por categorias y registrar, modificar.
+
+![alt text](image-37.png)
+
+#### Recurso
+
+https://github.com/platzi/curso-fastapi-sql/commit/edff26ade186e8967f3d02f5d656da8aa663499c
