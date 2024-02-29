@@ -35,3 +35,53 @@ Cómputo y computadoras
 * Las computadoras hacen dos cosas: hacen cálculos y recuerdan el resultado de dichos cálculos.
 * Por la mayoría de la historia humana, estábamos limitados por la velocidad del cerebro y la mano.
 * Aún con las computadoras modernas existen problemas que no podemos resolver.
+
+### Introducción a los lenguajes de programación
+
+¿Qué es un lenguaje de programación? Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para, de esa forma, crear programas que controlen el comportamiento físico y lógico de una máquina.
+
+¿Qué tipos de lenguaje de programación existen? El lenguaje de programación es la base para construir todas las aplicaciones digitales que se utilizan en el día a día y se clasifican en dos tipos principales: lenguaje de bajo nivel y de alto nivel.
+
+Lenguaje de programación de bajo nivel Son lenguajes totalmente orientados a la máquina.
+
+Este lenguaje sirve de interfaz y crea un vínculo inseparable entre el hardware y el software.
+
+Además, ejerce un control directo sobre el equipo y su estructura física. Para aplicarlo adecuadamente es necesario que el programador conozca sólidamente el hardware. Éste se subdivide en dos tipos:
+
+Lenguaje máquina Es el más primitivo de los lenguajes y es una colección de dígitos binarios o bits (0 y 1) que la computadora lee e interpreta y son los únicos idiomas que las computadoras entienden.
+
+Ejemplo: 10110000 01100001
+
+No entendemos muy bien lo que dice ¿verdad? Por eso, el lenguaje ensamblador nos permite entender mejor a qué se refiere éste código.
+
+Lenguaje ensamblador El lenguaje ensamblador es el primer intento de sustitución del lenguaje de máquina por uno más cercano al utilizado por los humanos.
+
+Un programa escrito en éste lenguaje es almacenado como texto (tal como programas de alto nivel) y consiste en una serie de instrucciones que corresponden al flujo de órdenes ejecutables por un microprocesador.
+
+Sin embargo, dichas máquinas no comprenden el lenguaje emsamblador, por lo que se debe convertir a lenguaje máquina mediante un programa llamado Ensamblador.
+
+Este genera códigos compactos, rápidos y eficientes creados por el programador que tiene el control total de la máquina.
+
+Ejemplo: MOV AL, 61h (asigna el valor hexadecimal 61 al registro “AL”)
+
+Lenguaje de programación de alto nivel Tienen como objetivo facilitar el trabajo del programador, ya que utilizan unas instrucciones más fáciles de entender.
+
+Además, el lenguaje de alto nivel permite escribir códigos mediante idiomas que conocemos (español, inglés, etc.) y luego, para ser ejecutados, se traduce al lenguaje de máquina mediante traductores o compiladores.
+
+++Traductor++ Traducen programas escritos en un lenguaje de programación al lenguaje máquina de la computadora y a medida que va siendo traducida, se ejecuta.
+
+++Compilador++ Permite traducir todo un programa de una sola vez, haciendo una ejecución más rápida y puede almacenarse para usarse luego sin volver a hacer la traducción.
+
+**Programación**
+
+* Turing completeness
+
+* Los lenguajes de programación modernos dan primitivos que son más convenientes que los primitivos de Turing.
+
+**Lenguajes**
+
+**Sintaxis** Define la secuencia de símbolos que está bienformada.
+
+**Semántica estática** Define qué enunciados con sintaxis correcta tienen significado
+
+**Semántica** Define el significado. En los lenguajes de programación sólo hay un significado.
