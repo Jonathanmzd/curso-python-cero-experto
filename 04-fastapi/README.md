@@ -512,3 +512,16 @@ https://github.com/platzi/curso-fastapi-sql/commit/c5564562cec82d341fd84724f86af
 #### Recurso
 
 https://github.com/platzi/curso-fastapi-sql/commit/d423a552252850bf01fd76c2e8eedaa91629f7c5
+
+
+### SQLModel: el futuro ORM de FastAPI
+
+Esta es una alternativa de ORM creada por el creador de FastAPi 
+
+https://sqlmodel.tiangolo.com/
+
+Comando para instalar este ORM para el uso de este se debe desconectar el anterior de SQLAlchemy
+
+```sh
+pip install sqlmodel
+```
