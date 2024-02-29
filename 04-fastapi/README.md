@@ -435,3 +435,25 @@ Es una libreria que nos permite manipular las tablas de una base de datos como s
 ¿Que es SQLAlchemy?
 
 Es una libreria para python que faciita el acceso a una base de datos relacional mapeando tablas SQL a clases.
+
+### Instalación y configuración de SQLAlchemy
+
+Instalar plugin para Vstudio Code llamado SQLite Viewer
+
+![alt text](image-30.png)
+
+Instalar el modulo para python de SQLAlchemy
+
+Nota: verificar donde se intala hacerlo dentro del proyecto, para este caso **my-movie-api**
+
+```sh
+pip install sqlalchemy
+```
+
+![alt text](image-31.png)
+
+Configuracion para la base de datos
+
+* Crear la carpeta config
+* Dentro de dicha carpeta crear el archivo __init__.py para que detecte la carpeta como un modulo.
+* Crear otro archivo llamado database.py donde añadiremos las configuraciones.
