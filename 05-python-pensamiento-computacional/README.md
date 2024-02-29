@@ -569,5 +569,24 @@ Los algoritmos dependen del hadware.
 
 ![alt text](image-31.png)
 
-* Cuando la respuesta se encuentra en un conjunto ordenado, podemos utilizar búsqueda binaria 
+* Cuando la respuesta se encuentra en un conjunto ordenado, podemos utilizar búsqueda binaria
 * Es altamente eficiente, pues corta el espacio de búsqueda en dos por cada iteración
+
+### Funciones y abstracción
+
+**Abstracción**
+
+* No nesecita la forma de como funciona, pero como operarla ejemplo una caluladora.
+
+**Decomposición**
+
+* Permite dividir el código en componentes que colaboran con un fin en común.
+* Se puede pensar como mini programas dentro de un programa mayor
+
+Definición de funciones
+
+![alt text](image-32.png)
+
+Argumentos de Keyword y valores por defecto
+
+![alt text](image-33.png)
