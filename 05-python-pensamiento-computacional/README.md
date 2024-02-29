@@ -261,3 +261,33 @@ Reasignacion de memoria
 * Hacen los programas más comprensibles.
 * Son simplemente nombres que apuntan a un valor en memoria.
 * El operador de asignación (=) asocia una variable con un valor.
+
+### Cadenas y entradas
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+Cadenas (strings)
+
+* Los objetos de tipo str pueden representarse con “ ” o ‘ ’.
+* El operador + tiene diferente significado según el tipo de dato (overloaded). Con cadenas significa concatenación.
+* El operador * es el operador de repetición con cadenas.
+* Las cadenas son inmutables.
+
+Entradas (inputs)
+
+* Python tiene la función input para recibir datos del usuario del programa.
+* Input siempre regresa cadenas, por lo que si queremos utilizar otro tipo, tenemos que hacer type casting.
+
+![alt text](image-23.png)
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
