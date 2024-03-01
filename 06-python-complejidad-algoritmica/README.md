@@ -56,3 +56,7 @@ if __name__ == '__main__':
     final = time.time()
     print(final - comienzo)
 ```
+
+## Abstracción
+
+![alt text](image.png)
