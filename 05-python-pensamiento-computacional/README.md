@@ -834,3 +834,11 @@ Los nuevos que encontré además de los de la clase:
 <https://www.datacamp.com/community/tutorials/python-dictionary-comprehension>
 
 ![alt text](image-44.png)
+
+### Pruebas de caja negra
+
+* Se basan en la especificación de la función o el programa.
+* Prueba inputs y valida outputs.
+* Unit testing o integration testing.
+
+<https://platzi.com/blog/que-es-y-como-funciona-tdd/>
