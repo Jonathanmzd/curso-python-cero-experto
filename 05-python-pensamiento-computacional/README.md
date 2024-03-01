@@ -777,3 +777,49 @@ print(type(my_range)) #Tipo
 for i in range(2, 10, 2): #Imprime pares
  print(i)
 ```
+
+### Listas y mutabilidad
+
+* Son secuencias de objetos, pero a diferencia de las tuplas, sí son mutables.
+* Cuando modificas una lista, pueden existir efectos secundarios (side effects)
+* Es posible iterar con ellas.
+
+* Para modificar una lista podemos:
+○ Asignar vía índice (my_lista[0] = 5)
+○ Utilizar los métodos de la lista (append, pop, remove, insert, etc.)
+
+<https://docs.python.org/3/tutorial/datastructures.html#more-on-lists>
+
+Los nuevos que encontré además de los de la clase:
+
+* lista.extend(iterable) #extiende la lista con valores dentro de un iterable como un range()
+* lista.insert(i, 'valor') #Agrega un valor en la posición i y recorre todos los demás. No borra nada.
+* lista.pop(i) #Elimina valor en la posición i de la lista.
+* lista.remove('valor') #Elimina el primer elemento con ese valor.
+* lista.clear() #Borra elementos en la lista.
+* lista.index('valor') #Retorna posición del primer elemento con el valor.
+* lista.index('valor', start, end) #Retorna posición del elemento con el valor dentro de los elementos desde posición start hasta posición end)
+* lista.count('valor') #Cuenta cuántas veces esta ese valor en la lista.
+* lista.sort() #Ordena los elementos de mayor a menor.
+* lista.sort(reverse = True) #Ordena los elementos de menor a mayor.
+* lista.reverse() #Invierte los elementos
+* lista.copy() #Genera una copia de la lista. También útil para clonar listas.
+
+**Clonación**
+
+* Casi siempre es mejor clonar una lista en vez de mutarla
+* Para clonar una lista podemos utilizar rebanadas (slices) o la función list
+
+```sh
+    a = list()
+    a = a[::]
+```
+
+**List comprehension**
+
+* Es una forma concisa de aplicar operaciones a los valores de una secuencia.
+* También se pueden aplicar condiciones para filtrar.
+
+![alt text](image-42.png)
+
+![alt text](image-43.png)
