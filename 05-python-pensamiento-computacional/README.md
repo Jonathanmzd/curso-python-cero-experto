@@ -848,3 +848,27 @@ Los nuevos que encontré además de los de la clase:
 * Se basan en el flujo del programa.
 * Prueba todos los caminos posibles de una función. Ramificaciones, bucles for y while, recursión.
 * Regression testing o mocks.
+
+### Debugging
+
+**Reglas generales**
+
+* No te molestes con el debugger. Aprende a utilizar el print statement.
+* Estudia los datos disponibles.
+* Utiliza los datos para crear hipótesis y experimentos. Método científico
+* Ten una mente abierta. Si entendieras el programa, probablemente no habrían bugs.
+* Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
+
+**Diseño de experimentos**
+
+* Debugear es un proceso de búsqueda. Cada prueba debe acotar el espacio de búsqueda.
+* Búsqueda binaria con print statements.
+
+**Errores comunes**
+
+* Encuentra a los sospechosos comunes.
+* En lugar de preguntarte por qué un programa no funciona, pregúntate por qué está funcionando de esta manera.
+* Es posible que el bug no se encuentre donde crees que está.
+* Explícale el problema a otra persona. De preferencia que no tenga contexto.
+* Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
+* Vete a dormir.
