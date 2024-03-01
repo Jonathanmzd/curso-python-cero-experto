@@ -823,3 +823,14 @@ Los nuevos que encontré además de los de la clase:
 ![alt text](image-42.png)
 
 ![alt text](image-43.png)
+
+### Diccionarios
+
+* Son como listas, pero en lugar de usar índices utilizan llaves.
+* No tienen orden interno.
+* Los diccionarios son mutables.
+* Pueden iterarse.
+
+<https://www.datacamp.com/community/tutorials/python-dictionary-comprehension>
+
+![alt text](image-44.png)
