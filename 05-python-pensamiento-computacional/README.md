@@ -924,3 +924,12 @@ function buscaPais(paises, pais) {
 Como puedes ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
 
 Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el estilo EAFP es mucho más "pythonico".
+
+### Afirmaciones
+
+* Programación defensiva
+* Pueden utilizarse para verificar que los tipos sean correctos en una función
+* También sirven para debuguear
+
+![alt text](image-45.png)
+
