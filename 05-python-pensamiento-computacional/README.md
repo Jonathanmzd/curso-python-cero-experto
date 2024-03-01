@@ -872,3 +872,10 @@ Los nuevos que encontré además de los de la clase:
 * Explícale el problema a otra persona. De preferencia que no tenga contexto.
 * Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
 * Vete a dormir.
+
+### Manejo de excepciones
+
+* Son muy comunes en la programación. Notienen nada de excepcional.
+* Las excepciones de Python normalmente se relacionan con errores de semántica.
+* Se pueden crear excepciones propias.
+* Cuando una excepción no se maneja (unhandled exception), el programa termina en error.
