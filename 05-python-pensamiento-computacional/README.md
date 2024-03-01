@@ -842,3 +842,9 @@ Los nuevos que encontré además de los de la clase:
 * Unit testing o integration testing.
 
 <https://platzi.com/blog/que-es-y-como-funciona-tdd/>
+
+### Pruebas de caja de cristal
+
+* Se basan en el flujo del programa.
+* Prueba todos los caminos posibles de una función. Ramificaciones, bucles for y while, recursión.
+* Regression testing o mocks.
