@@ -112,3 +112,7 @@ Eficiencia para realizar esta busqueda.
 * ¿Cuál es el peor caso?
 
 ![alt text](image-8.png)
+
+## Ordenamiento de burbuja
+
+El ordenamiento de burbuja es un algoritmo que recorre repetidamente una lista que necesita ordenarse. Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Este procedimiento se repite hasta que no se requieren más intercambios, lo que indica que la lista se encuentra ordenada.
