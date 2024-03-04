@@ -102,3 +102,13 @@ Existen distintos tipos de complejidad algorítmica:
 
 * Busca en todos los elementos de manera secuencial.
 * ¿Cuál es el peor caso?
+
+## Búsqueda binaria
+
+Eficiencia para realizar esta busqueda.
+
+* Divide y conquista.
+* El problema se divide en 2 en cada iteración.
+* ¿Cuál es el peor caso?
+
+![alt text](image-8.png)
