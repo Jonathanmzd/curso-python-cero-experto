@@ -281,3 +281,11 @@ python3 graficado_simple.py
 ```
 
 <https://docs.bokeh.org/en/latest/index.html>
+
+## Introducción a la optimización
+
+* El concepto de optimización permite resolver mucho problemas de manera computacional.
+* Una función objetivo que debemos maximizar o minimizar.
+* Una serie de limitantes que debemos respetar.
+
+comparto con ustedes un video de derivando donde explica el problema p vs np: <https://www.youtube.com/watch?v=UR2oDYZ-Sao>
