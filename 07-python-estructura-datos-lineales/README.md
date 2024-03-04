@@ -191,3 +191,36 @@ Suponga que tiene un dataset con muchos datos, una colección de libros, música
 * Son desordenados
 
 ![alt text](image-14.png)
+
+## Arrays
+
+### ¿Qué es una estructura de datos?
+
+Representación interna de una colección de información.
+
+Conceptos clave
+
+* Elemento: valor almacenado en las posiciones del array.
+* Índice: referencia a la posición del elemento.
+
+Array
+
+1D Array
+
+2D Array
+
+3D Array = mayor complejidad
+
+### Los array son restrictivos
+
+No pueden:
+
+* Agregar posiciones.
+* Remover posiciones.
+* Modificar su tamaño.
+* Su capacidad se define al crearse.
+
+### Modulo python array
+
+* Solo almacena números y caracteres.
+* Basado en listas
