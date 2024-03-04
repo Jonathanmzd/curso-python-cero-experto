@@ -352,3 +352,10 @@ Calculo del problema del morall de forma recursiva
 El valor maximo que podemos robar es 160
 La complejidad del algoritmo es O(nW) donde n es el numero de elementos y W el tamano del morral
 ```
+
+## Conclusiones
+
+* Los tipos abstractos (clases) permiten crear programas poderosos que modelan al mundo.
+* Podemos medir la eficiencia de diversos algoritmos.
+* Las gráficas nos permiten encontrar patrones rápidamente.
+* Optimización
