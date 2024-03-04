@@ -13,3 +13,5 @@
 ### Curso de Introducción al Pensamiento Computacional con Python
 
 ### Curso de Complejidad Algorítmica con Python
+
+### Curso de Estructuras de Datos Lineales con Python
