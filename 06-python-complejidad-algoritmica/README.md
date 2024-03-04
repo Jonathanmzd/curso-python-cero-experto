@@ -219,3 +219,52 @@ Luego las recombina en forma ordenada.
 ![alt text](image-10.png)
 
 ![alt text](image-11.png)
+
+## Ambientes virtuales
+
+* Permiten aislar el ambiente para poder instalar diversas versiones de paquetes.
+* A partir de python 3 se incluye en la librería estándar en el módulo venv.
+* Ningún ingeniero profesional de Python trabaja sin ellos.
+
+**Pip**
+
+* Permite descargar paquetes de terceros para utilizar en nuestro programa.
+* Permite compartir nuestros paquetes con terceros.
+* Permite especificar la versión del paquete que necesitamos.
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+```sh
+# crear el ambiente virtual
+python3 -m venv env
+```
+
+```sh
+# Activar ambiente virtual
+source env/bin/activate
+```
+
+![alt text](image-14.png)
+
+```sh
+# Instalar libreria o paquete de grafico
+pip install bokeh
+```
+
+![alt text](image-15.png)
+
+```sh
+# Ver lo que se ha instalado
+pip freeze
+```
+
+![alt text](image-16.png)
+
+```sh
+# Salir del ambiente virtual
+pip freeze
+```
+
+![alt text](image-17.png)
