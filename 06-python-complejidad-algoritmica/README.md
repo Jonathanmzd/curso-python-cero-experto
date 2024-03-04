@@ -60,3 +60,21 @@ if __name__ == '__main__':
 ## Abstracción
 
 ![alt text](image.png)
+
+## Notación asintótica
+
+**Crecimiento asintótico**
+
+* No importan variaciones pequeñas.
+* El enfoque se centra en lo que pasa conforme el tamaño del problema se acerca al infinito.
+* Mejor de los casos, promedio, peor de los casos
+* Big O
+* Nada más importa el término de mayor tamaño
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
