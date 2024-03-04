@@ -153,3 +153,41 @@ Suponga que tiene un dataset con muchos datos, una colección de libros, música
 ## Operaciones esenciales en colecciones
 
 ![alt text](image-10.png)
+
+## Colecciones incorporadas en Python
+
+### Listas
+
+* Propósito general
+* Estructura más utilizada
+* Tamaño dinámico
+* De tipo secuencial
+* Ordenable
+
+![alt text](image-11.png)
+
+### Tuplas/Tuples
+
+* Inmutable (no se pueden añadir o cambiar).
+* Útiles para datos constantes.
+* Más rápidas que las listas.
+* Tipo secuencial.
+
+![alt text](image-12.png)
+
+### Conjuntos /Sets
+
+* Almacenan objetos no-duplicados.
+* De acceso rápido.
+* Aceptan operaciones lógicas.
+* Son desordenados
+
+![alt text](image-13.png)
+
+### Diccionarios/ Dictionaries
+
+* Pares de llave/valor.
+* Arrays asociativos (hash maps).
+* Son desordenados
+
+![alt text](image-14.png)
