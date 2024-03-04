@@ -1,5 +1,7 @@
 # Indice
 
+Usar **Run and Debug de Vscode** para ver el codigo linea por linea y como cambian las variables.
+
 ## Python como base de programación
 
 **De aprendizaje**
@@ -147,3 +149,7 @@ Son estructuras que imponen un orden con una regla. Generalmente una regla de or
 Suponga que tiene un dataset con muchos datos, una colección de libros, música, fotos, y desea ordenar esta colección, ante esta situación siempre existe el Trade Off entre rapidez/costo/memoria El conocimeinto de las propiedades de las colecciones te facilitará la selección de estructura de datos según sea el caso y velar por un software eficiente.
 
 ![alt text](image-9.png)
+
+## Operaciones esenciales en colecciones
+
+![alt text](image-10.png)
