@@ -95,3 +95,10 @@ Existen distintos tipos de complejidad algorítmica:
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+## Búsqueda lineal
+
+* Busca en todos los elementos de manera secuencial.
+* ¿Cuál es el peor caso?
