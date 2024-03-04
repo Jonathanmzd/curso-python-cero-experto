@@ -359,3 +359,9 @@ La complejidad del algoritmo es O(nW) donde n es el numero de elementos y W el t
 * Podemos medir la eficiencia de diversos algoritmos.
 * Las gráficas nos permiten encontrar patrones rápidamente.
 * Optimización
+
+Pensamiento computacional desarrollado:
+○ Decomposición
+○ Abstracción
+○ Reconocimiento de patrones
+○ Diseño de algoritmos
