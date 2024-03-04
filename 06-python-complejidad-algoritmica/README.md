@@ -274,3 +274,10 @@ pip freeze
 * Reconocimiento de patrones
 * Predicción de una serie
 * Simplifica la interpretación y las conclusiones acerca de los datos
+
+```sh
+# Ejecutar script
+python3 graficado_simple.py
+```
+
+<https://docs.bokeh.org/en/latest/index.html>
