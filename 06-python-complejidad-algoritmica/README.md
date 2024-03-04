@@ -208,3 +208,14 @@ def ordenamiento_por_insercion(lista):
         lista[posicion_actual] = valor_actual
 ```
 
+## Ordenamiento por mezcla
+
+El ordenamiento por mezcla es un algoritmo de divide y conquista.
+Primero divide una lista en partes iguales hasta que quedan sublistas de 1 o 0 elementos.
+Luego las recombina en forma ordenada.
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
