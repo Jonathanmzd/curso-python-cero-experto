@@ -264,7 +264,7 @@ pip freeze
 
 ```sh
 # Salir del ambiente virtual
-pip freeze
+deactivate
 ```
 
 ![alt text](image-17.png)
@@ -289,3 +289,66 @@ python3 graficado_simple.py
 * Una serie de limitantes que debemos respetar.
 
 comparto con ustedes un video de derivando donde explica el problema p vs np: <https://www.youtube.com/watch?v=UR2oDYZ-Sao>
+
+## El problema del morral
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+```txt
+--------------------------------------------------
+Calculo del problema del morall de forma recursiva
+   * Analizamos Elemento 3 *
+   - Espacio en morral = 30
+   - Peso = 30, valor = 120
+--------------------------------------------------
+--> SI Robo el elemento 3 y sumo a mi morral 120 en valor!
+   * Analizamos Elemento 2 *
+   - Espacio en morral = 0
+   - Peso = 20, valor = 100
+   Espacio en morral lleno!
+--------------------------------------------------
+--> NO robo el elemento 3!
+   * Analizamos Elemento 2 *
+   - Espacio en morral = 30
+   - Peso = 20, valor = 100
+--------------------------------------------------
+--> SI Robo el elemento 2 y sumo a mi morral 100 en valor!
+   * Analizamos Elemento 1 *
+   - Espacio en morral = 10
+   - Peso = 10, valor = 60
+--------------------------------------------------
+--> SI Robo el elemento 1 y sumo a mi morral 60 en valor!
+   * Analizamos Elemento 0 *
+   - Espacio en morral = 0
+   - Peso = 30, valor = 120
+   Espacio en morral lleno!
+--------------------------------------------------
+--> NO robo el elemento 1!
+   * Analizamos Elemento 0 *
+   - Espacio en morral = 10
+   - Peso = 30, valor = 120 
+   Indice final alcanzado!
+--------------------------------------------------
+--> NO robo el elemento 2!
+   * Analizamos Elemento 1 *
+   - Espacio en morral = 30
+   - Peso = 10, valor = 60
+--------------------------------------------------
+--> SI Robo el elemento 1 y sumo a mi morral 60 en valor!
+   * Analizamos Elemento 0 *
+   - Espacio en morral = 20
+   - Peso = 30, valor = 120
+   Indice final alcanzado!
+--------------------------------------------------
+--> NO robo el elemento 1!
+   * Analizamos Elemento 0 *
+   - Espacio en morral = 30
+   - Peso = 30, valor = 120
+   Indice final alcanzado!
+
+ * El metodo se llamo 9 veces para calcular 3 elementos
+El valor maximo que podemos robar es 160
+La complejidad del algoritmo es O(nW) donde n es el numero de elementos y W el tamano del morral
+```
