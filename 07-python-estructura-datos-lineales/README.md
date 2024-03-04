@@ -232,3 +232,14 @@ No pueden:
 ![alt text](image-16.png)
 
 ![alt text](image-17.png)
+
+## Arrays de dos dimensiones
+
+Otros nombres
+
+* Bi-dimensional array
+* Two-dimensional array
+* Grid
+* Rejilla
+* Malla
+* Tabla
