@@ -268,3 +268,9 @@ pip freeze
 ```
 
 ![alt text](image-17.png)
+
+## ¿Por qué graficar?
+
+* Reconocimiento de patrones
+* Predicción de una serie
+* Simplifica la interpretación y las conclusiones acerca de los datos
