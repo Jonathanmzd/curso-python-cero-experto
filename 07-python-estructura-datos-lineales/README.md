@@ -415,3 +415,44 @@ Eliminar en cualquier posición
 ![alt text](image-33.png)
 
 ![alt text](image-34.png)
+
+## Circular linked list
+
+**listas enlazadas circulares**
+
+Las listas enlazadas circulares son un tipo de lista enlazada en la que el último nodo apunta hacia el headde la lista en lugar de apuntar None. Esto es lo que los hace circulares.
+
+Las listas enlazadas circulares tienen bastantes casos de uso interesantes:
+
+* Dar la vuelta al turno de cada jugador en un juego multijugador
+* Gestionar el ciclo de vida de la aplicación de un sistema operativo determinado
+* Implementando un montón de Fibonacci
+
+Así es como se ve una lista enlazada circular:
+
+Una de las ventajas de las listas enlazadas circulares es que puede recorrer toda la lista comenzando en cualquier nodo. Dado que el último nodo apunta al headde la lista, debe asegurarse de dejar de atravesar cuando llegue al punto de partida. De lo contrario, terminarás en un bucle infinito.
+
+En términos de implementación, las listas enlazadas circulares son muy similares a la lista enlazada individualmente. La única diferencia es que puede definir el punto de partida cuando recorre la lista:
+
+```py
+class CircularLinkedList:
+    def **init**(self):
+        self.head = None
+
+    def traverse(self, starting_point=None):
+        if starting_point is None:
+            starting_point = self.head
+        node = starting_point
+        while node is not None and (node.next != starting_point):
+            yield node
+            node = node.next
+        yield node
+
+    def print_list(self, starting_point=None):
+        nodes = []
+        for node in self.traverse(starting_point):
+            nodes.append(str(node))
+        print(" -> ".join(nodes))
+```
+
+Atravesar la lista ahora recibe un argumento adicional starting_point, que se usa para definir el inicio y (debido a que la lista es circular) el final del proceso de iteración. Aparte de eso, gran parte del código es el mismo que teníamos en nuestra LinkedListclase.
