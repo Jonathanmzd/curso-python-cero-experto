@@ -456,3 +456,40 @@ class CircularLinkedList:
 ```
 
 Atravesar la lista ahora recibe un argumento adicional starting_point, que se usa para definir el inicio y (debido a que la lista es circular) el final del proceso de iteración. Aparte de eso, gran parte del código es el mismo que teníamos en nuestra LinkedListclase.
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+## Double linked list
+
+![alt text](image-37.png)
+
+![alt text](image-38.png)
+
+![alt text](image-39.png)
+
+Cómo utilizar listas doblemente enlazadas
+
+Las listas doblemente enlazadas se diferencian de las listas enlazadas individualmente en que tienen dos referencias:
+
+* El previous campo hace referencia al nodo anterior.
+* El next campo hace referencia al siguiente nodo.
+
+El resultado final se ve así:
+
+![alt text](image-40.png)
+
+```py
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.previous = None
+```
+
+Este tipo de implementación le permitiría atravesar una lista en ambas direcciones en lugar de solo atravesar usando next. Puede utilizar next para avanzar y previous retroceder.
+
+En términos de estructura, así es como se vería una lista doblemente enlazada:
+
+![alt text](image-41.png)
