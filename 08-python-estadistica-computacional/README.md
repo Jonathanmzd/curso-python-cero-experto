@@ -160,3 +160,11 @@ Ley de los grandes números
 ![alt text](image-12.png)
 
 ![alt text](image-13.png)
+
+### Simulaciones de Montecarlo
+
+* Permite crear simulaciones para predecir el resultado de un problema
+* Permite convertir problemas determinísticos en problemas estocásticos
+* Es utilizado en una gran diversidad de áreas, desde la ingeniería hasta la biología y el derecho.
+
+![alt text](image-14.png)
