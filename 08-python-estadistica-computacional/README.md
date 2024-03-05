@@ -178,3 +178,7 @@ Ley de los grandes números
 ![alt text](image-15.png)
 
 ![alt text](image-16.png)
+
+### Implementación del Cálculo de PI
+
+![alt text](image-17.png)
