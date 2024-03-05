@@ -112,3 +112,13 @@ Ley de los grandes números
 
 * La falacia del apostador señala que después de un evento extremo, ocurrirán eventos menos extremos para nivelar la media
 * La regresión a la media señala que después de un evento aleatorio extremo, el siguiente evento probablemente será menos extremo.
+
+### Media
+
+* Es una medida de tendencia central
+* Comúnmente es conocida como el promedio
+* La media de una población se denota con el símbolo μ. La media de una muestra se denota con x̅
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
