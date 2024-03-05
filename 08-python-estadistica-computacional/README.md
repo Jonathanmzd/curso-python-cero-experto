@@ -69,3 +69,23 @@ Este es un ejercicio donde empezando desde un punto 0 aleatoriamente podemos dec
 * Los programas determinísticos son muy importantes, pero existen problemas que no pueden resolverse de esa manera
 * La programación estocástica permite introducir aleatoriedad a nuestros programas para crear simulaciones que permiten resolver otro tipo de problemas
 * Los programas estocásticos se aprovechan de que las distribuciones probabilísticas de un problema se conocen o pueden ser estimadas
+
+### Cálculo de Probabilidades
+
+* La probabilidad es una medida de la certidumbre asociada a un evento o suceso futuro y suele expresarse como un número entre 0 y 1
+* Una probabilidad de 0 significa que un suceso jamás sucederá
+* Una probabilidad de 1 significa que un suceso está garantizado de suceder en el futuro
+* Al hablar de probabilidad preguntamos qué fracción de todos los posibles eventos tiene la propiedad que buscamos
+* Por eso es importante poder calcular todas las posibilidades de un evento para entender su probabilidad
+* La probabilidad de que un evento suceda y de que no suceda es siempre 1
+
+* P(A) + P(~A) = 1
+  * Ley del complemento
+
+* P(A y B) = P(A) * P(B)
+  * Ley multiplicativa
+
+* P(A o B) = P(A) + P(B) (mutuamente exclusivos)
+
+* P(A o B) = P(A) + P(B) - P(A y B) (no exclusivos)
+  * Ley aditiva
