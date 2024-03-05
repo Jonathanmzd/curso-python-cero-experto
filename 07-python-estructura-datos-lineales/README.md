@@ -555,3 +555,13 @@ Conceptos importantes
 **Métodos de queues**
 
 ![alt text](image-49.png)
+
+## Queue basada en listas
+
+¿Qué hicimos?
+
+![alt text](image-50.png)
+
+![alt text](image-51.png)
+
+![alt text](image-52.png)
