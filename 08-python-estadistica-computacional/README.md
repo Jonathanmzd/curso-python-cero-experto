@@ -62,3 +62,10 @@ Este es un ejercicio donde empezando desde un punto 0 aleatoriamente podemos dec
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
+
+### Introducción a la Programación Estocástica
+
+* Un programa es determinístico si cuando se corre con el mismo input produce el mismo output
+* Los programas determinísticos son muy importantes, pero existen problemas que no pueden resolverse de esa manera
+* La programación estocástica permite introducir aleatoriedad a nuestros programas para crear simulaciones que permiten resolver otro tipo de problemas
+* Los programas estocásticos se aprovechan de que las distribuciones probabilísticas de un problema se conocen o pueden ser estimadas
