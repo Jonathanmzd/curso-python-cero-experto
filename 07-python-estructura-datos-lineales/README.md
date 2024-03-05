@@ -339,3 +339,35 @@ if __name__=="__main__":
  ll.insert_value_from_list(["banana","mango","fresa"])
  ll.print()
 ```
+
+## Operaciones en single linked structures
+
+Variable auxiliar probe
+
+* Puntero temporal.
+* Recorre la lista consultando datos.
+
+```py
+ from node import Node
+
+# * Creación de los nodos enlazados (linked list)
+head = None
+for count in range(1,6):
+    head = Node(count, head)
+
+# * Recorrer e imprimir valores de la lista
+probe = head
+print("Recorrido de la lista:")
+while probe != None:
+    print(probe.data)
+    probe = probe.next
+```
+
+```sh
+Recorrido de la lista:
+5
+4
+3
+2
+1
+```
