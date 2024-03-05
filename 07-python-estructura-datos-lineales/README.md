@@ -493,3 +493,35 @@ Este tipo de implementación le permitiría atravesar una lista en ambas direcci
 En términos de estructura, así es como se vería una lista doblemente enlazada:
 
 ![alt text](image-41.png)
+
+## ¿Qué son stacks?
+
+* Colección lineal
+* Basados en arrays
+  * linked lists
+* LIFO (last-in first-out)
+* Añadir: push
+* Remover: pop
+* Top
+* Bottom
+
+![alt text](image-42.png)
+
+![alt text](image-43.png)
+
+**Aplicaciones**
+
+* Invertir el orden de una lista.
+* Implementar “undo”.
+* Mantener historiales.
+* Backtracking.
+
+**Stack vs. list**
+
+* Similares, no iguales.
+* List: append, pop.
+* Es afectada por sus otros métodos.
+
+**Métodos de stacks**
+
+![alt text](image-44.png)
