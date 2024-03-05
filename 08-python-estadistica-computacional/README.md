@@ -56,3 +56,9 @@ El Juego de la Vida - DotCSV <https://www.youtube.com/watch?v=omMcrvVGTMs>
 <https://github.com/karlbehrensg/programacion-dinamica-y-estocastica>
 
 Este es un ejercicio donde empezando desde un punto 0 aleatoriamente podemos decidir que dirección tomar, dependiendo de las opciones establecidas.
+
+### Visualización de Caminos Aleatorios
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
