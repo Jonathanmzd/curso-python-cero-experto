@@ -246,3 +246,10 @@ Recuerda que el camino del conocimiento está lleno de descubrimientos fascinant
 * No necesariamente permite aproximar funciones lineales, sino que sus variantes permiten aproximar cualquier función polinómica
 
 <https://colab.research.google.com/drive/1c0Lx0xQyxuoZsnVKZzMFcANykA5VWN5F#scrollTo=M-ydNFdSi8PN>
+
+### Conclusiones
+
+* La programación dinámica permite optimizar problemas que tienen subestructura óptima y subproblemas empalmados
+* Las computadoras pueden resolver problemas determinísticos y estocásticos
+* Podemos generar simulaciones computacionalespara responder preguntas del mundo real
+* La inferencia estadística nos permite tener confianza de que nuestras simulaciones arrojan resultados válidos
