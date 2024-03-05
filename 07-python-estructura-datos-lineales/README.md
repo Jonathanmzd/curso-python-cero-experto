@@ -535,3 +535,23 @@ En términos de estructura, así es como se vería una lista doblemente enlazada
 ![alt text](image-46.png)
 
 ![alt text](image-47.png)
+
+## ¿Qué son las queues?
+
+Conceptos importantes
+
+* FIFO: First-In, First-Out.
+* Rear: último elemento.
+* Front: primer elemento.
+* Priority queues: se basa en FIFO con elementos de mayor/menor prioridad.
+
+**Operaciones fundamentales**
+
+* pop(): remover front.
+* add(): añadir a rear.
+
+![alt text](image-48.png)
+
+**Métodos de queues**
+
+![alt text](image-49.png)
