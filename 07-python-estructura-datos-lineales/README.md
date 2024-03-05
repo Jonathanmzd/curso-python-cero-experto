@@ -525,3 +525,13 @@ En términos de estructura, así es como se vería una lista doblemente enlazada
 **Métodos de stacks**
 
 ![alt text](image-44.png)
+
+## Crear un stack
+
+¿Qué hicimos?
+
+![alt text](image-45.png)
+
+![alt text](image-46.png)
+
+![alt text](image-47.png)
