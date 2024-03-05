@@ -35,3 +35,7 @@ Una técnica para obtener una alta velocidad en nuestro programa es la Memorizac
 * La Memorización es una técnica para guardar cómputos previos y evitar realizarlos nuevamente.
 * Normalmente se utiliza un diccionario, donde las consultas se pueden hacer en O(1).
 * Intercambia tiempo por espacio.
+
+### Optimización de Fibonacci
+
+![alt text](image.png)
