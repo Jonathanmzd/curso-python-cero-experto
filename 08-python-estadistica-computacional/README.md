@@ -237,3 +237,12 @@ En la exploración de la ciencia y sus métodos, nos encontramos con la necesida
 ¿Cómo pueden las regresiones lineales ayudarnos a validar teorías científicas? En la próxima clase, exploraremos cómo las regresiones lineales se utilizan para determinar si los datos experimentales se alinean con una teoría. Además, veremos cómo esta técnica estadística también es útil para desarrollar descripciones matemáticas cuando no existe una teoría previa.
 
 Recuerda que el camino del conocimiento está lleno de descubrimientos fascinantes, y tú también puedes contribuir con ejemplos de experimentos que consideres relevantes. No dudes en compartir tus ideas o propuestas que podamos revisar juntos para seguir aprendiendo sobre la maravillosa interacción entre la teoría y la experimentación. ¡Te espero en la próxima clase para continuar este viaje de descubrimiento científico!
+
+![alt text](image-20.png)
+
+### Regresión Lineal
+
+* Permite aproximar una función a un conjunto de datos obtenidos de manera experimental
+* No necesariamente permite aproximar funciones lineales, sino que sus variantes permiten aproximar cualquier función polinómica
+
+<https://colab.research.google.com/drive/1c0Lx0xQyxuoZsnVKZzMFcANykA5VWN5F#scrollTo=M-ydNFdSi8PN>
