@@ -199,3 +199,15 @@ El muestreo es muy importante cuando no tenemos acceso a toda la población que 
 En un muestreo aleatorio cualquier miembro de la población tiene la misma probabilidad de ser escogido.
 
 En un muestreo estratificado tomamos en consideración las características de la población para partirla en subgrupos y luego tomamos muestras de cada subgrupo, esto incrementa la probabilidad de que el muestreo sea representativo de la población.
+
+### Teorema del Límite Central
+
+* Es uno de los teoremas más importantes de la estadística
+* Establece que muestras aleatorias de cualquier distribución van a tener una distribución normal
+* Permite entender cualquier distribución como la distribución normal de sus medias y eso nos permite aplicar todo lo que sabemos de distribuciones normales
+* Mientras más muestras obtengamos, mayor será la similitud con la distribución normal
+* Mientras la muestra sea de mayor tamaño, la desviación estándar será menor
+
+![alt text](image-19.png)
+
+<http://195.134.76.37/applets/AppletCentralLimit/Appl_CentralLimit2.html>
