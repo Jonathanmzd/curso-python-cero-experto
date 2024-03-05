@@ -167,4 +167,8 @@ Ley de los grandes números
 * Permite convertir problemas determinísticos en problemas estocásticos
 * Es utilizado en una gran diversidad de áreas, desde la ingeniería hasta la biología y el derecho.
 
+### Simulación de Barajas
+
+¡Hola! ¿Cómo van con el reto? Noten que cuando digo “barajas” me refiero a los “naipes/cartas” individuales. Puede darse el caso de que en algunos países la palabra “baraja” sea sinónimo de “mazo”, pero en esta clase no es así, siempre me estoy refiriendo a los elementos de forma individual.
+
 ![alt text](image-14.png)
