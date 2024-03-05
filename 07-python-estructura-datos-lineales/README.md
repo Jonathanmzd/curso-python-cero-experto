@@ -579,3 +579,18 @@ Qué hicimos
 ![alt text](image-56.png)
 
 ![alt text](image-57.png)
+
+## Queue basada en nodos
+
+¿Por qué y cómo?
+
+* Agregar y eliminar elementos son O(1).
+* Usando doubly linked list.
+
+Qué hicimos
+
+![alt text](image-58.png)
+
+![alt text](image-59.png)
+
+![alt text](image-60.png)
