@@ -50,3 +50,9 @@ Una técnica para obtener una alta velocidad en nuestro programa es la Memorizac
 Tu propuesta es bastante interesante me recordo a un algoritmo llamado "conway's game of life" es un algoritmo aleatorio que por asi decirlo una celda, o particula como desees verlo depende de las demas que le rodeany de eso dependera si vive o muere la actual casilla, es bastante extenso pero pudiera interesarte. Creo es muy a fin a tu propuesta.
 
 El Juego de la Vida - DotCSV <https://www.youtube.com/watch?v=omMcrvVGTMs>
+
+### Camino de Borrachos
+
+<https://github.com/karlbehrensg/programacion-dinamica-y-estocastica>
+
+Este es un ejercicio donde empezando desde un punto 0 aleatoriamente podemos decidir que dirección tomar, dependiendo de las opciones establecidas.
