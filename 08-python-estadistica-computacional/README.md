@@ -89,3 +89,26 @@ Este es un ejercicio donde empezando desde un punto 0 aleatoriamente podemos dec
 
 * P(A o B) = P(A) + P(B) - P(A y B) (no exclusivos)
   * Ley aditiva
+
+### Inferencia Estadística
+
+El principio guía de la Inferencia Estadística es que una muestra aleatoria tiende a exhibir las mismas propiedades que la población de la cual fue extraída.
+
+* Con las simulaciones podemos calcular las probabilidades de eventos complejos sabiendo las probabilidades de eventos simples
+* ¿Qué pasa cuando no sabemos las probabilidades de los eventos simples?
+* Las técnicas de la Inferencia Estadística nos permiten inferir/concluir las propiedades de una población a partir de una muestra aleatoria.
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+Ley de los grandes números
+
+* En pruebas independientes repetidas con la misma probabilidad p de un resultado, la fracción de desviaciones de p converge a cero conforme las cantidad de pruebas se acerca al infinito.
+
+![alt text](image-5.png)
+
+**Falacia del apostador**
+
+* La falacia del apostador señala que después de un evento extremo, ocurrirán eventos menos extremos para nivelar la media
+* La regresión a la media señala que después de un evento aleatorio extremo, el siguiente evento probablemente será menos extremo.
