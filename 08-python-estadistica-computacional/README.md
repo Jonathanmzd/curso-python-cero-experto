@@ -140,3 +140,23 @@ Ley de los grandes números
 * La ventaja sobre la varianza es que la desviación estándar está en las mismas unidades que la media.
 
 ![alt text](image-9.png)
+
+### Distribución Normal
+
+* Es una de las distribuciones más recurrentes en cualquier ámbito
+* Se define completamente por su media y su desviación estándar
+* Permite calcular intervalos de confianza con la regla empírica
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+**Regla empírica**
+
+* También conocida como la regla 68-95-99.7
+* Señala cuál es la dispersión de los datos en una distribución normal a uno, dos y tres sigmas
+* Permite calcular probabilidades con la densidad de la distribución normal
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
