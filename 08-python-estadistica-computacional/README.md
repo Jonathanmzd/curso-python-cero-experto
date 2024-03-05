@@ -211,3 +211,29 @@ En un muestreo estratificado tomamos en consideración las características de l
 ![alt text](image-19.png)
 
 <http://195.134.76.37/applets/AppletCentralLimit/Appl_CentralLimit2.html>
+
+### ¿Cómo trabajar con datos experimentales?
+
+* Es la aplicación del método científico
+* Es necesario comenzar con una teoría o hipótesis sobre el resultado al que se quiere llegar
+* Basado en la hipótesis se debe crear un experimento para validar o falsear la hipótesis
+* Se valida o falsea una hipótesis midiendo la diferencia entre las mediciones experimentales y aquellas mediciones predichas por la hipótesis
+
+En la exploración de la ciencia y sus métodos, nos encontramos con la necesidad de trabajar con datos no solo teóricos o simulados, sino con aquellos que se obtienen de la experimentación real. Comprender cómo se aplican los métodos computacionales a los datos experimentales es esencial. Esta comprensión y aplicación se basa en el método científico, una piedra angular de la investigación que utiliza teoría e hipótesis como guías iniciales para el diseño de experimentos objetivos y la posterior verificación o refutación de dichas hipótesis. Veremos cómo teorías ampliamente reconocidas han sido contrastadas con la realidad experimental y discutiremos la relevancia de aplicar análisis estadísticos, como las regresiones lineales, para interpretar los resultados de estos experimentos. Te animo a unirte a este continuo aprendizaje y a aportar ejemplos interesantes en los que podamos indagar juntos.
+
+**El método científico y la hipótesis**
+¿Cómo se vinculan la teoría y la experimentación en el método científico? El punto de partida es siempre una hipótesis o teoría, posibilitando la creación de experimentos diseñados objetivamente para su comprobación. En este proceso, es fundamental abordar la experimentación sin prejuicios, buscando la verdad de la hipótesis sin intentar forzar los resultados a favor de nuestras creencias iniciales.
+
+**Diseño y ejecución de experimentos**
+¿Cuál es la importancia del diseño y ejecución de experimentos? Una vez formulada la hipótesis, se procede a diseñar un experimento que permita confirmarla o refutarla. La ejecución de dicho experimento proporciona datos que, al compararlos con las predicciones teóricas, nos indican si la teoría se sostiene ante la evidencia empírica o si, por el contrario, debe ser cuestionada o incluso descartada.
+
+**Comparación entre teoría y datos experimentales**
+¿Qué sucede cuando se comparan los datos experimentales con las teorías? A lo largo de la historia, muchas teorías han sido confirmadas a través de experimentos, como es el caso de la mecánica cuántica y la teoría general de la relatividad. Sin embargo, el hecho de que estas teorías sean incompatibles entre sí, plantea desafíos significativos e invita a profundizar en el conocimiento y la investigación científica.
+
+**Leyes de Hooke y de Joule, y verificación experimental**
+¿Cómo se verifica experimentalmente la ley de Hooke y la ley de Joule? Tomemos como ejemplo la ley de Hooke y la ley de plasticidad de Joule. Estas nos permiten saber la fuerza necesaria para estirar un resorte y la fuerza que este ejercerá para volver a su forma original. Para validar estas leyes se realizan experimentos objetivos, estirando un resorte con diferentes pesos y observando su comportamiento lineal.
+
+**Uso de regresiones lineales para validar teorías**
+¿Cómo pueden las regresiones lineales ayudarnos a validar teorías científicas? En la próxima clase, exploraremos cómo las regresiones lineales se utilizan para determinar si los datos experimentales se alinean con una teoría. Además, veremos cómo esta técnica estadística también es útil para desarrollar descripciones matemáticas cuando no existe una teoría previa.
+
+Recuerda que el camino del conocimiento está lleno de descubrimientos fascinantes, y tú también puedes contribuir con ejemplos de experimentos que consideres relevantes. No dudes en compartir tus ideas o propuestas que podamos revisar juntos para seguir aprendiendo sobre la maravillosa interacción entre la teoría y la experimentación. ¡Te espero en la próxima clase para continuar este viaje de descubrimiento científico!
