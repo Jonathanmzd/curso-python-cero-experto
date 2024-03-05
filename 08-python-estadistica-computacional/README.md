@@ -122,3 +122,21 @@ Ley de los grandes números
 ![alt text](image-6.png)
 
 ![alt text](image-7.png)
+
+### Varianza y Desviación Estándar
+
+**Varianza**
+
+* La varianza mide qué tan propagados se encuentran un conjunto de valores aleatorios de su media.
+* Mientras que la media nos da una idea de dónde se encuentran los valores, la varianza nos dice que tan dispersos se encuentran.
+* La varianza siempre debe entenderse con respecto a la media.
+
+![alt text](image-8.png)
+
+**Desviación estándar**
+
+* La desviación estándar es la raíz cuadrada de la varianza.
+* Nos permite entender, también, la propagación y se debe entender siempre relacionado a la media.
+* La ventaja sobre la varianza es que la desviación estándar está en las mismas unidades que la media.
+
+![alt text](image-9.png)
