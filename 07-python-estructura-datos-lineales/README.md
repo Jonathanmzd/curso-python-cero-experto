@@ -371,3 +371,47 @@ Recorrido de la lista:
 2
 1
 ```
+
+## Operaciones a detalle
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+![alt text](image-24.png)
+
+Búsqueda
+
+![alt text](image-25.png)
+
+Reemplazo
+
+![alt text](image-26.png)
+
+Insertar al inicio
+
+![alt text](image-27.png)
+
+Insertar al final
+
+![alt text](image-28.png)
+
+Eliminar primer nodo
+
+![alt text](image-29.png)
+
+Eliminar último nodo
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+Insertar en cualquier posición
+
+![alt text](image-32.png)
+
+Eliminar en cualquier posición
+
+![alt text](image-33.png)
+
+![alt text](image-34.png)
