@@ -44,3 +44,9 @@ Una técnica para obtener una alta velocidad en nuestro programa es la Memorizac
 
 * Es un tipo de simulación que elige aleatoriamente una decisión dentro de un conjunto de decisiones válidas
 * Se utiliza en muchos campos del conocimiento cuando los sistemas no son deterministas e incluyen elementos de aleatoriedad
+
+### Entendiendo la aleatoriedad con Python
+
+Tu propuesta es bastante interesante me recordo a un algoritmo llamado "conway's game of life" es un algoritmo aleatorio que por asi decirlo una celda, o particula como desees verlo depende de las demas que le rodeany de eso dependera si vive o muere la actual casilla, es bastante extenso pero pudiera interesarte. Creo es muy a fin a tu propuesta.
+
+El Juego de la Vida - DotCSV <https://www.youtube.com/watch?v=omMcrvVGTMs>
