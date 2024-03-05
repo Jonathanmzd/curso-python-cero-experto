@@ -594,3 +594,20 @@ Qué hicimos
 ![alt text](image-59.png)
 
 ![alt text](image-60.png)
+
+## Más allá de las estructuras lineales
+
+Qué has aprendido
+
+* Estructuras básicas:
+  * Array
+  * Node
+* Linked list
+* Stack
+* Queue
+
+Qué puedes hacer
+
+* Crear tus propias estructuras lineales.
+* Optimizar tu código.
+* Optimizar el uso de memoria.
