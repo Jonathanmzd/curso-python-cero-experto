@@ -205,3 +205,14 @@ En pocas palabras: con datos errados las conclusiones serán erradas.
 * Aprendizaje supervisado vs no supervisado vs semisupervisado.
 
 * Batch vs online learning.
+
+### Feature vectors
+
+Se utilizan para representar características simbólicas o numéricas llamadas features.
+
+* Permiten analizar un objeto desde una perspectiva matemática.
+* Los algoritmos de machine learning típicamente requieren representaciones numéricas para poder ejecutar el cómputo.
+* Uno de los feature vectors más conocidos es la representación del color a través de RGB ○ color = [R, G, B]
+* Procesamiento de imágenes: ○ Gradientes, bordes, áreas, colores, etc.
+* Reconocimiento de voz: ○ Distancia de sonidos, nivel de ruido, razón ruido / señal, etc.
+* Spam: ○ Dirección IP, estructura del texto, frecuencia de palabras, encabezados, etc.
