@@ -225,3 +225,10 @@ Se utilizan para representar características simbólicas o numéricas llamadas 
 * Distancia de Manhattan
 
 ![alt text](image-18.png)
+
+### Introducción al agrupamiento
+
+* Es un proceso mediante el cual se agrupan objetos similares en clusters que los identifican.
+* Se clasifica como aprendizaje no supervisado ya que no requiere la utilización de etiquetas.
+* Permite entender la estructura de los datos y la similitud entre los mismos.
+* Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, etc.
