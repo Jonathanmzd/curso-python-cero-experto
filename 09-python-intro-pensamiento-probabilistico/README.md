@@ -144,32 +144,50 @@ En pocas palabras: con datos errados las conclusiones serán erradas.
 
 ![alt text](image-15.png)
 
-**Imágenes engañosas**
-Las visualizaciones son muy importantes para entender un conjunto de datos. Sin embargo, cuando se juega con la escala se puede llegar a conclusiones incorrectas.
+### Imágenes engañosas
 
-Nunca se debe confiar en una gráfica sin escalas o etiquetas.
+* Las visualizaciones son muy importantes para entender un conjunto de datos.
+* Sin embargo, cuando se juega con la escala se puede llegar a conclusiones incorrectas.
+* Nunca se debe confiar en una gráfica sin escalas o etiquetas
 
-**Cum Hoc Ergo Propter Hoc**
-Dos variables están positivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se mueven en direcciones opuestas. Esta correlación no implica causalidad.
+### Cum Hoc Ergo Propter Hoc
 
-Puede existir variables escondidas que generen la correlación. Después de esto, eso; entonces a consecuencia de esto, eso.
+* Dos variables están positivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se mueven en direcciones opuestas.
+* Correlación no implica causalidad.
+* Pueden existir variables escondidas que generen la correlación
+* Después de esto, eso; entonces a consecuencia de esto, eso.
 
-**Prejuicio en el muestreo**
-Para que un muestreo pueda servir como base para la inferencia estadística tiene que ser aleatorio y representativo.
+### Prejuicio en el muestreo
 
-El prejuicio en el muestreo elimina la representatividad de las muestras.
+* Para que un muestreo pueda servir como base para la inferencia estadística tiene que ser aleatorio y representativo.
+* El prejuicio en el muestreo elimina la representatividad de las muestras.
+* A veces conseguir muestras es difícil, por lo que se utiliza a la población de más fácil acceso (caso estudios universitarios).
 
-A veces conseguir muestras es difícil, por lo que se utiliza a la población de más fácil acceso (caso estudios universitarios).
+### Falacia del francotirador de Texas
 
-**Falacia del francotirador de Texas**
-Esta falacia se da cuando no se toma la aleatoriedad en consideración. También sucede cuando uno se enfoca en las similitudes e ignora las diferencias.
+* Esta falacia se da cuando no se toma la aleatoriedad en consideración.
+* También sucede cuando uno se enfoca en la similitudes e ignora las diferencias.
+* Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alto riesgo de caer en esta falacia (muy común en Data Science).
 
-Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alto riesgo de car en esta falacia (muy común en Data Science).
+### Porcentajes confusos
 
-**Porcentajes confusos**
-Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados, siempre es importante ver el contexto, y los porcentajes, en vacio, no significan mucho.
+* Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados.
+* Siempre es importante ver el contexto.
+* Los porcentajes, en vacío, no significan mucho.
 
-**Falacia de regresión**
-Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
+![alt text](image-16.png)
 
-Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
+* Escuela A incrementó su rendimiento en 25%
+* Escuela B incrementó su rendimiento en 10%
+* Escuela C incrementó su rendimiento en 5%
+
+![alt text](image-17.png)
+
+* En 1970, 12.5 millones de jóvenes vivían con sus padres
+* En 2015 esta cifra se incrementó a 18.6 millones
+* ¿Esto representa un incremento del 48%?
+
+### Falacia de regresión
+
+* Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
+* Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
