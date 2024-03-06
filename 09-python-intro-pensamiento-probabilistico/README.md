@@ -283,3 +283,10 @@ ejemplo, normal, binomial, Poisson, etc.).
 * Modelos de densidad: analizan la densidad de los datos en diferentes regiones y dividen el conjunto en grupos, luego asignan los puntos de acuerdo a las áreas de densidad en las que se haya dividido el dataset.
 ​
 Acuérdate de no casarte con un modelo específico. Muchas de las mejores Ingenieras de Machine Learning y Científicas de Datos utilizan varios modelos con el mismo conjunto de datos para analizar el rendimiento de los diversos algoritmos que tienen a su disposición. Así que experimenta y siempre compara tus resultados antes de tomar una decisión.
+
+### Introducción a la clasificación
+
+* Es el proceso mediante el cual se predice la clase de cierto dato.
+* Es un tipo de aprendizaje supervisado ya que para que funcione, se necesitan etiquetas con los datos (labels).
+* Se utiliza en muchos dominios, incluyendo la medicina, aprobación crediticia, reconocimiento de imágenes, vehículos autónomos, entre otros.
+* Sigue dos pasos: aprendizaje (creación del modelo) y clasificación.
