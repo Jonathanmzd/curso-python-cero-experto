@@ -290,3 +290,19 @@ Acuérdate de no casarte con un modelo específico. Muchas de las mejores Ingeni
 * Es un tipo de aprendizaje supervisado ya que para que funcione, se necesitan etiquetas con los datos (labels).
 * Se utiliza en muchos dominios, incluyendo la medicina, aprobación crediticia, reconocimiento de imágenes, vehículos autónomos, entre otros.
 * Sigue dos pasos: aprendizaje (creación del modelo) y clasificación.
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+### Clasificación K-nearest neighbors
+
+* Parte del supuesto de que ya tenemos un conjunto de datos clasificado.
+* Trata de encontrar los “vecinos más cercanos”.
+* K se refiere a la cantidad de vecinos que se utilizarán para clasificar un ejemplo que aún no ha sido clasificado.
+* Es sencillo de implementar y tiene aplicaciones en medicina, finanzas, agricultura, etc.
+* Es computacionalmente muy costoso y no sirve con datos de alta dimensionalidad.
+
+![alt text](image-23.png)
+
+![alt text](image-24.png)
