@@ -18,4 +18,4 @@
 
 ### Curso de Estadística Computacional con Python
 
-### 
+### Curso de Introducción al Pensamiento Probabilístico

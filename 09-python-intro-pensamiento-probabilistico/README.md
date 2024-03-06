@@ -216,3 +216,12 @@ Se utilizan para representar características simbólicas o numéricas llamadas 
 * Procesamiento de imágenes: ○ Gradientes, bordes, áreas, colores, etc.
 * Reconocimiento de voz: ○ Distancia de sonidos, nivel de ruido, razón ruido / señal, etc.
 * Spam: ○ Dirección IP, estructura del texto, frecuencia de palabras, encabezados, etc.
+
+### Métricas de Distancia
+
+* Muchos de los algoritmos de machine learning pueden clasificarse como algoritmos de optimización.
+* Lo que desean optimizar es una función que en muchas ocasiones se refiere a la distancia entre features.
+* Distancia euclidiana
+* Distancia de Manhattan
+
+![alt text](image-18.png)
