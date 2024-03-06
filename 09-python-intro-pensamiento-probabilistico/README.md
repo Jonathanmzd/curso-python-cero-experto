@@ -232,3 +232,14 @@ Se utilizan para representar características simbólicas o numéricas llamadas 
 * Se clasifica como aprendizaje no supervisado ya que no requiere la utilización de etiquetas.
 * Permite entender la estructura de los datos y la similitud entre los mismos.
 * Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, etc.
+
+### Agrupamiento jerárquico
+
+* Es un algoritmo que agrupa objetos similares en grupos llamados clusters
+* El algoritmo comienza tratando a cada objeto como un cluster individual y luego realiza los siguientes pasos de manera recursiva:
+  * Identifica los dos clusters con menor distancia (los más similares)
+  * Agrupa los dos clusters en uno nuevo
+* El output final es un dendrograma que muestra la relación entre objetos y grupos.
+* Es importante determinar qué medida de distancia vamos a utilizar y los puntos a utilizar en cada cluster (linkage criteria)
+
+![alt text](image-19.png)
