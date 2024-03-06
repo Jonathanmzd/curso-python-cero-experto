@@ -53,3 +53,41 @@ Como sabemos que ![alt text](image-12.png) podemos reemplazarlo en la ecuación 
 ![alt text](image-13.png)
 
 En este  <https://www.youtube.com/watch?v=HZGCoVF3YvM&t> (en inglés) podras encontrar un video práctico sobre el Teorema de Bayes.
+
+### Análisis de síntomas
+
+En el siguiente ejercicio implementaremos la posibilidad de tener síntomas dado a que una persona tenga cáncer.
+
+![alt text](image-14.png)
+
+```py
+# Implementamos la P(B) = P(A)P(B|A) + P(¬A)P(B|¬A)
+def prob_b(prob_a, prob_b_dado_a, prob_b_complemento_a):
+    calculo = prob_a * prob_b_dado_a + (1-prob_a) * prob_b_complemento_a
+    return calculo
+
+# Implementamos la P(A|B) = P(B|A)P(A) / P(B)
+def cal_bayes(prob_a, prob_b_dado_a, prob_b_complemento_a):
+    prob_evento = prob_b(prob_a, prob_b_dado_a, prob_b_complemento_a)
+    calculo = (prob_b_dado_a * prob_a)/prob_evento
+
+    return calculo
+
+if __name__ == "__main__":
+    prob_cancer = 1 / 100000
+    prob_sintoma_dado_cancer = 1
+    prob_sintoma_dado_no_cancer = 10 / 99999
+    
+    resultado = cal_bayes(prob_cancer, prob_sintoma_dado_cancer, prob_sintoma_dado_no_cancer)
+
+    print(resultado)
+```
+
+Vamos a la consola y ejecutamos nuestro programa.
+
+```py
+python3 sintomas.py # Ejecutamos nuestro programa
+
+# Y este sera nuestro resultado.
+0.09090909090909091
+```
