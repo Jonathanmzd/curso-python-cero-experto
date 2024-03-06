@@ -357,3 +357,14 @@ Te invito a que consultes la documentación de Scikit-learn para que puedas prof
 
 ¡Compártenos tus descubrimientos!
 ​
+
+### Conclusiones
+
+* El pensamiento probabilístico permite evaluar un mundo que es por su propia naturaleza no determinista.
+* También permite incorporar evidencia para ajustar el modelo probabilístico.
+* Los números no mienten, pero las personas que los usan pueden usarlos para mentir.
+* Machine learning permite que las computadoras generen modelos matemáticos sin necesidad de ser programadas explícitamente.
+* Las ciencias de la computación es un área de conocimiento basta y que ha revolucionado al mundo.
+* Computadoras, lenguajes de programación, algoritmos, estructuras de datos, técnicas de programación (OOP, dinámica, estocástica, probabilística, funcional, etc.), inferencia estadística, machine learning, etc.
+* Ahora ya tienes un panorama para que puedas escoger qué área te gustaría profundizar.
+* La serie de pensamiento computacional te dio herramientas no sólo para ser un mejor ingeniero, sino para fortalecer tu capacidad de razonamiento lógico.
