@@ -31,3 +31,25 @@ Un ejemplo de esto puede ser la probabilidad que una persona tenga cáncer, lueg
 Otro ejemplo es cual es la probabilidad de que una persona use drogas, pero como dato adicional esta persona es músico.
 
 ![alt text](image-4.png)
+
+### Teorema de Bayes
+
+El teorema de Bayes, en la teoría de la probabilidad, es una proposición planteada por el matemático inglés Thomas Bayes (1702-1761)​ y publicada póstumamente en 1763,​ que expresa la probabilidad condicional de un evento aleatorio A dado B en términos de la distribución de probabilidad condicional del evento B dado A y la distribución de probabilidad marginal de solo A.
+
+En términos más generales y menos matemáticos, el teorema de Bayes es de enorme relevancia puesto que vincula la probabilidad de A dado B con la probabilidad de B dado A. Es decir, por ejemplo, que sabiendo la probabilidad de tener un dolor de cabeza dado que se tiene gripe, se podría saber (si se tiene algún dato más), la probabilidad de tener gripe si se tiene un dolor de cabeza. Muestra este sencillo ejemplo la alta relevancia del teorema en cuestión para la ciencia en todas sus ramas, puesto que tiene vinculación íntima con la comprensión de la probabilidad de aspectos causales dados los efectos observados.
+
+Sea ![alt text](image-5.png) un conjunto de sucesos mutuamente excluyentes y exhaustivos, y tales que la probabilidad de cada uno de ellos es distinta de cero (0). Sea B un suceso cualquiera del que se conocen las probabilidades condicionales ![alt text](image-6.png). Entonces, la probabilidad ![alt text](image-7.png) viene dada por la expresión:
+
+![alt text](image-8.png)
+
+donde:
+
+* ![alt text](image-9.png) son las probabilidades a priori,
+* ![alt text](image-10.png) es la probabilidad de B en la hipótesis A,
+* ![alt text](image-11.png) son las probabilidades a posteriori.
+
+Como sabemos que ![alt text](image-12.png) podemos reemplazarlo en la ecuación y nos quedaría:
+
+![alt text](image-13.png)
+
+En este  <https://www.youtube.com/watch?v=HZGCoVF3YvM&t> (en inglés) podras encontrar un video práctico sobre el Teorema de Bayes.
