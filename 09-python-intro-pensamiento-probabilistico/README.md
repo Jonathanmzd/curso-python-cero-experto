@@ -191,3 +191,17 @@ En pocas palabras: con datos errados las conclusiones serán erradas.
 
 * Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
 * Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
+
+### Introducción a Machine Learning
+
+"Es el campo de estudio que le da a las computadoras la habilidad de aprender sin ser explícitamente programadas." - Arthur Samuel, 1959.
+
+* Machine learning se utiliza cuando:
+
+  * Programar un algoritmo es imposible.
+  * El problema es muy complejo o no se conocen altoritmos para resolverlo.
+  * Ayuda a los humanos a entender patrones (data mining).
+
+* Aprendizaje supervisado vs no supervisado vs semisupervisado.
+
+* Batch vs online learning.
