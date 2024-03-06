@@ -131,3 +131,45 @@ acertadas que eviten accidentes.
 En esta rama existen muchos ejemplos como para cubrirlos todos, pero quiero por lo menos mencionar algunos casos de uso: filtros de spam, reconocimiento de voz, motores de búsqueda, análisis de riesgo crediticio, ofertas automáticas, y un largo etcétera.
 ​
 Para terminar, me gustaría compartir una cita del famoso economista John Maynard Keynes que resume perfectamente el tipo de pensamiento que quiero que desarrolles: "Cuando los hechos cambian, yo cambio mi opinión. ¿Qué hace usted, señor?"
+
+### Garbage in, garbage out (Mentiras estadísticas)
+
+* La calidad de nuestros datos es igual de fundamental que la precisión de nuestros cómputos.
+* Cuando los datos son errados, aunque tengamos un cómputo prístino nuestros resultados serán erróneos.
+* En pocas palabras: con datos errados las conclusiones seránerradas.
+
+En dos ocasiones me han preguntado (miembros del parlamento) ‘Disculpe, Sr. Babbage, si introduce en la máquina números incorrectos, la respuesta correcta saldrá’. Me cuesta trabajo apreciar la confusión de ideas que puede provocar dichas preguntas.
+
+En pocas palabras: con datos errados las conclusiones serán erradas.
+
+![alt text](image-15.png)
+
+**Imágenes engañosas**
+Las visualizaciones son muy importantes para entender un conjunto de datos. Sin embargo, cuando se juega con la escala se puede llegar a conclusiones incorrectas.
+
+Nunca se debe confiar en una gráfica sin escalas o etiquetas.
+
+**Cum Hoc Ergo Propter Hoc**
+Dos variables están positivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se mueven en direcciones opuestas. Esta correlación no implica causalidad.
+
+Puede existir variables escondidas que generen la correlación. Después de esto, eso; entonces a consecuencia de esto, eso.
+
+**Prejuicio en el muestreo**
+Para que un muestreo pueda servir como base para la inferencia estadística tiene que ser aleatorio y representativo.
+
+El prejuicio en el muestreo elimina la representatividad de las muestras.
+
+A veces conseguir muestras es difícil, por lo que se utiliza a la población de más fácil acceso (caso estudios universitarios).
+
+**Falacia del francotirador de Texas**
+Esta falacia se da cuando no se toma la aleatoriedad en consideración. También sucede cuando uno se enfoca en las similitudes e ignora las diferencias.
+
+Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alto riesgo de car en esta falacia (muy común en Data Science).
+
+**Porcentajes confusos**
+Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados, siempre es importante ver el contexto, y los porcentajes, en vacio, no significan mucho.
+
+**Falacia de regresión**
+Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
+
+Cuando algo fluctúa y se aplican medidas correctivas se puede creer que existe un vínculo de causalidad en lugar de una regresión a la media.
